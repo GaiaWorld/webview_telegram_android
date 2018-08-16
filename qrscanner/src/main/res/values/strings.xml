@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">二维码</string>
+    <string name="app_btn_txt_iqos_scan">"iqosjay@gmail.com"</string>
+    <string name="app_btn_txt_iqos_embedded">"Embedded"</string>
+    <string name="title_activity_basic">BasicActivity</string>
+</resources>

@@ -1,0 +1,164 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.mob.sdk'
+MobSDK {
+    appKey "26dc20197b496"
+    appSecret "d674e27d7de5bfcfd6760bbed9cb0cf1"
+    ShareSDK {
+        devInfo {
+            Wechat {
+                appId "wx82a7e354925202e6"
+                appSecret "ef952d46017a9167db9832b57fa15435"
+                userName "gh_afb25ac019c9"
+                path "pages/index/index.html?id=1"
+                withShareTicket true
+                miniprogramType 2
+                bypassApproval false
+            }
+            WechatMoments {
+                appId "wx82a7e354925202e6"
+                appSecret "ef952d46017a9167db9832b57fa15435"
+                userName "gh_afb25ac019c9"
+                path "pages/index/index.html?id=1"
+                withShareTicket true
+                miniprogramType 2
+                bypassApproval false
+            }
+            QQ {
+                appId "1107057918"
+                appKey "ZA8TZCDkupz38eoN"
+                shareByAppClient true
+                bypassApproval false
+            }
+            QZone {
+                appId "1107057918"
+                appKey "ZA8TZCDkupz38eoN"
+                shareByAppClient true
+                bypassApproval false
+            }
+            Line {
+                appId "1477692153"
+                appSecret "f30c036370f2e04ade71c52eef73a9af"
+            }
+        }
+    }
+}
+
+// 默认版本号
+ext.appVersionNumber = ""
+// 默认apk输出路径
+ext.appReleaseDir = "../build/"
+// 默认apk名称
+ext.appName = "apk_Release"
+//默认渠道名
+ext.channelName = ""
+//默认包名
+ext.appPackeName = 'com.kupay.kupay'
+
+// 加载版本信息配置文件方法
+def loadProperties() {
+    def proFile = file("../local.properties")
+    Properties pro = new Properties()
+    proFile.withInputStream { stream ->
+        pro.load(stream)
+    }
+    if (pro.containsKey('appVersionNumber')) appVersionNumber = pro.appVersionNumber
+    if (pro.containsKey('appReleaseDir')) appReleaseDir = pro.appReleaseDir
+    if (pro.containsKey('appName')) appName = pro.appName
+    if (pro.containsKey('channelName')) channelName = pro.channelName
+    if (pro.containsKey('appPackeName')) appPackeName = pro.appPackeName
+
+    if (pro.containsKey('keyAlias') && pro.containsKey('keyPassword') &&
+            pro.containsKey('storeFile') && pro.containsKey('storePassword')) {
+        android.signingConfigs.release.storeFile = file(pro['storeFile'])
+        android.signingConfigs.release.storePassword = pro['storePassword']
+        android.signingConfigs.release.keyAlias = pro['keyAlias']
+        android.signingConfigs.release.keyPassword = pro['keyPassword']
+    }
+}
+// 加载版本信息
+loadProperties()
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'yineng'
+            keyPassword '123456'
+            storeFile file('yineng.keystore')
+            storePassword '123456'
+        }
+    }
+    compileSdkVersion 27
+    buildToolsVersion '27.0.3'
+    defaultConfig {
+        multiDexEnabled true
+        ndk {
+            abiFilters "armeabi", "armeabi-v7a", "x86", "mips"
+        }
+        applicationId = appPackeName
+        minSdkVersion 19
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+    //这是应用编译完成
+    applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            //开始输出
+            // output.outputFile = new File(appReleaseDir + appName + ".apk")
+        }
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        maven {
+            url "https://maven.google.com"
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.airbnb.android:lottie:2.5.4'
+    implementation 'com.tencent.mm.opensdk:wechat-sdk-android-with-mta:+'
+    implementation 'com.github.dfqin:grantor:2.5'
+    implementation 'org.kie.modules:com-google-code-gson:6.5.0.Final'
+    implementation 'com.journeyapps:zxing-android-embedded:3.6.0'
+    api project(':imageselector')
+    api project(':argon2jni')
+    api project(':qrscanner')
+    api project(':telegram')
+//    implementation 'com.github.iqosjay:QRScanner:2.1.2'
+}
+
+configurations.all {
+    resolutionStrategy.eachDependency { DependencyResolveDetails details ->
+        def requested = details.requested
+        if (requested.group == 'com.android.support') {
+            if (!requested.name.startsWith("multidex")) {
+                details.useVersion '25.3.1'
+            } else {
+                details.useVersion '1.0.0'
+            }
+        }
+    }
+}

@@ -1,0 +1,47 @@
+{
+  "buildFiles": [
+    "A:\\myworkspace\\MyDemo\\android_webview\\src\\telegram\\jni\\Android.mk",
+    "A:\\myworkspace\\MyDemo\\android_webview\\src\\telegram\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "B:\\AndroidSDK\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dA:\\myworkspace\\MyDemo\\android_webview\\src\\telegram\\jni\\Android.mk NDK_APPLICATION_MK\u003dA:\\myworkspace\\MyDemo\\android_webview\\src\\telegram\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dA:/myworkspace/MyDemo/android_webview/src/telegram/build/intermediates/ndkBuild/armv7/release/obj NDK_LIBS_OUT\u003dA:\\myworkspace\\MyDemo\\android_webview\\src\\telegram\\build\\intermediates\\ndkBuild\\armv7\\release\\lib NDK_APPLICATION_MK:\u003djni/Application.mk APP_PLATFORM:\u003dandroid-14 clean"
+  ],
+  "libraries": {
+    "voip-armv7Release-armeabi-v7a": {
+      "artifactName": "voip",
+      "buildCommand": "B:\\AndroidSDK\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dA:\\myworkspace\\MyDemo\\android_webview\\src\\telegram\\jni\\Android.mk NDK_APPLICATION_MK\u003dA:\\myworkspace\\MyDemo\\android_webview\\src\\telegram\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dA:/myworkspace/MyDemo/android_webview/src/telegram/build/intermediates/ndkBuild/armv7/release/obj NDK_LIBS_OUT\u003dA:\\myworkspace\\MyDemo\\android_webview\\src\\telegram\\build\\intermediates\\ndkBuild\\armv7\\release\\lib NDK_APPLICATION_MK:\u003djni/Application.mk APP_PLATFORM:\u003dandroid-14 A:/myworkspace/MyDemo/android_webview/src/telegram/build/intermediates/ndkBuild/armv7/release/obj/local/armeabi-v7a/libvoip.a",
+      "abi": "armeabi-v7a",
+      "output": "A:\\myworkspace\\MyDemo\\android_webview\\src\\telegram\\build\\intermediates\\ndkBuild\\armv7\\release\\obj\\local\\armeabi-v7a\\libvoip.a"
+    },
+    "cpufeatures-armv7Release-armeabi-v7a": {
+      "artifactName": "cpufeatures",
+      "buildCommand": "B:\\AndroidSDK\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dA:\\myworkspace\\MyDemo\\android_webview\\src\\telegram\\jni\\Android.mk NDK_APPLICATION_MK\u003dA:\\myworkspace\\MyDemo\\android_webview\\src\\telegram\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dA:/myworkspace/MyDemo/android_webview/src/telegram/build/intermediates/ndkBuild/armv7/release/obj NDK_LIBS_OUT\u003dA:\\myworkspace\\MyDemo\\android_webview\\src\\telegram\\build\\intermediates\\ndkBuild\\armv7\\release\\lib NDK_APPLICATION_MK:\u003djni/Application.mk APP_PLATFORM:\u003dandroid-14 A:/myworkspace/MyDemo/android_webview/src/telegram/build/intermediates/ndkBuild/armv7/release/obj/local/armeabi-v7a/libcpufeatures.a",
+      "abi": "armeabi-v7a",
+      "output": "A:\\myworkspace\\MyDemo\\android_webview\\src\\telegram\\build\\intermediates\\ndkBuild\\armv7\\release\\obj\\local\\armeabi-v7a\\libcpufeatures.a"
+    },
+    "sqlite-armv7Release-armeabi-v7a": {
+      "artifactName": "sqlite",
+      "buildCommand": "B:\\AndroidSDK\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dA:\\myworkspace\\MyDemo\\android_webview\\src\\telegram\\jni\\Android.mk NDK_APPLICATION_MK\u003dA:\\myworkspace\\MyDemo\\android_webview\\src\\telegram\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dA:/myworkspace/MyDemo/android_webview/src/telegram/build/intermediates/ndkBuild/armv7/release/obj NDK_LIBS_OUT\u003dA:\\myworkspace\\MyDemo\\android_webview\\src\\telegram\\build\\intermediates\\ndkBuild\\armv7\\release\\lib NDK_APPLICATION_MK:\u003djni/Application.mk APP_PLATFORM:\u003dandroid-14 A:/myworkspace/MyDemo/android_webview/src/telegram/build/intermediates/ndkBuild/armv7/release/obj/local/armeabi-v7a/libsqlite.a",
+      "abi": "armeabi-v7a",
+      "output": "A:\\myworkspace\\MyDemo\\android_webview\\src\\telegram\\build\\intermediates\\ndkBuild\\armv7\\release\\obj\\local\\armeabi-v7a\\libsqlite.a"
+    },
+    "tgnet-armv7Release-armeabi-v7a": {
+      "artifactName": "tgnet",
+      "buildCommand": "B:\\AndroidSDK\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dA:\\myworkspace\\MyDemo\\android_webview\\src\\telegram\\jni\\Android.mk NDK_APPLICATION_MK\u003dA:\\myworkspace\\MyDemo\\android_webview\\src\\telegram\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dA:/myworkspace/MyDemo/android_webview/src/telegram/build/intermediates/ndkBuild/armv7/release/obj NDK_LIBS_OUT\u003dA:\\myworkspace\\MyDemo\\android_webview\\src\\telegram\\build\\intermediates\\ndkBuild\\armv7\\release\\lib NDK_APPLICATION_MK:\u003djni/Application.mk APP_PLATFORM:\u003dandroid-14 A:/myworkspace/MyDemo/android_webview/src/telegram/build/intermediates/ndkBuild/armv7/release/obj/local/armeabi-v7a/libtgnet.a",
+      "abi": "armeabi-v7a",
+      "output": "A:\\myworkspace\\MyDemo\\android_webview\\src\\telegram\\build\\intermediates\\ndkBuild\\armv7\\release\\obj\\local\\armeabi-v7a\\libtgnet.a"
+    },
+    "webp-armv7Release-armeabi-v7a": {
+      "artifactName": "webp",
+      "buildCommand": "B:\\AndroidSDK\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dA:\\myworkspace\\MyDemo\\android_webview\\src\\telegram\\jni\\Android.mk NDK_APPLICATION_MK\u003dA:\\myworkspace\\MyDemo\\android_webview\\src\\telegram\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dA:/myworkspace/MyDemo/android_webview/src/telegram/build/intermediates/ndkBuild/armv7/release/obj NDK_LIBS_OUT\u003dA:\\myworkspace\\MyDemo\\android_webview\\src\\telegram\\build\\intermediates\\ndkBuild\\armv7\\release\\lib NDK_APPLICATION_MK:\u003djni/Application.mk APP_PLATFORM:\u003dandroid-14 A:/myworkspace/MyDemo/android_webview/src/telegram/build/intermediates/ndkBuild/armv7/release/obj/local/armeabi-v7a/libwebp.a",
+      "abi": "armeabi-v7a",
+      "output": "A:\\myworkspace\\MyDemo\\android_webview\\src\\telegram\\build\\intermediates\\ndkBuild\\armv7\\release\\obj\\local\\armeabi-v7a\\libwebp.a"
+    },
+    "tmessages.27-armv7Release-armeabi-v7a": {
+      "artifactName": "tmessages.27",
+      "buildCommand": "B:\\AndroidSDK\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dA:\\myworkspace\\MyDemo\\android_webview\\src\\telegram\\jni\\Android.mk NDK_APPLICATION_MK\u003dA:\\myworkspace\\MyDemo\\android_webview\\src\\telegram\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dA:/myworkspace/MyDemo/android_webview/src/telegram/build/intermediates/ndkBuild/armv7/release/obj NDK_LIBS_OUT\u003dA:\\myworkspace\\MyDemo\\android_webview\\src\\telegram\\build\\intermediates\\ndkBuild\\armv7\\release\\lib NDK_APPLICATION_MK:\u003djni/Application.mk APP_PLATFORM:\u003dandroid-14 A:/myworkspace/MyDemo/android_webview/src/telegram/build/intermediates/ndkBuild/armv7/release/obj/local/armeabi-v7a/libtmessages.27.so",
+      "abi": "armeabi-v7a",
+      "output": "A:\\myworkspace\\MyDemo\\android_webview\\src\\telegram\\build\\intermediates\\ndkBuild\\armv7\\release\\obj\\local\\armeabi-v7a\\libtmessages.27.so"
+    }
+  }
+}

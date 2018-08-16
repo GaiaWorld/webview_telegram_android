@@ -1,0 +1,3 @@
+B:/AndroidWorkSpace/CompanyProject/webview_telegram_android/argon2jni/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/argon2jni.dir
+B:/AndroidWorkSpace/CompanyProject/webview_telegram_android/argon2jni/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/edit_cache.dir
+B:/AndroidWorkSpace/CompanyProject/webview_telegram_android/argon2jni/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/rebuild_cache.dir

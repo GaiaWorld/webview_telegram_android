@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:keepScreenOn="true">
+    <!--SurfaceView-->
+    <SurfaceView
+        android:id="@+id/preview_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <!--自定义扫码界面-->
+    <com.iqos.qrcodedemo.common.widget.ViewfinderView
+        android:id="@+id/viewfinder_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:scan_line_color="#00FF00"
+        app:scan_line_move_speed="3"
+        app:scan_rect_corner_color="#00FF00"
+        app:scan_rect_corner_length="20dp"
+        app:scan_rect_corner_width="3dp"
+        app:scan_text_above_rect="false"
+        app:scan_tip_text="把二维码放入取景框即可自动扫描"
+        app:scan_tip_text_size="14sp" />
+    <!--Title-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/app_scanner_qr_code_iv_back"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_click_ripple"
+            android:scaleType="center"
+            android:src="@drawable/ic_arrow_back_white_24dp"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|start"
+            android:text="扫描二维码"
+            android:textColor="@android:color/white"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+</RelativeLayout>

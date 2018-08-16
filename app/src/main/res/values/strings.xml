@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">酷支付</string><!--App的名称-->
+    <string name="init_url">file:///android_asset/index.html</string><!--要加载的首个网页-->
+    <string name="compile_web_view_version_code">50</string><!--游览器的临界值、低于这个值将会使用X5Chrome-->
+    <string name="connect_url_time_out_value">20000</string><!--连接超时的时间-->
+    <string name="allow_show_x5_core_download_progress">1</string><!--是否显示x5内核的下载进度-->
+    <string name="whether_to_allow_download_in_non_wifi_environment">1</string><!--是否允许在非wifi环境下下载x5内核-->
+    <string name="whether_show_launch_animation">0</string><!--是否显示启动的动画-->
+    <string name="launch_animation_least_last_time">600</string><!--动画的最低持续时间(ms)-->
+    <string name="app_splash_anim_file_name">dotted_loader.json</string><!--启动的动画-->
+    <string name="bool_des">1表示“真”、0表示“假”</string><!--描述-->
+</resources>
