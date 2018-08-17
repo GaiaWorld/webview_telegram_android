@@ -10,20 +10,25 @@ import android.net.Uri;
 import android.os.Handler;
 import android.os.Message;
 import android.util.AttributeSet;
+import android.util.Log;
+import android.webkit.WebResourceResponse;
 import android.widget.LinearLayout;
 
 import com.kupay.kupay.R;
 import com.kupay.kupay.callback.WebViewLoadProgressCallback;
 import com.kupay.kupay.common.js.JSBridge;
 import com.kupay.kupay.common.js.JSEnv;
+import com.kupay.kupay.interceptor.InterceptorHandler;
 import com.kupay.kupay.util.Logger;
 import com.tencent.smtt.export.external.interfaces.JsResult;
+import com.tencent.smtt.export.external.interfaces.WebResourceRequest;
 import com.tencent.smtt.sdk.WebChromeClient;
 import com.tencent.smtt.sdk.WebSettings;
 import com.tencent.smtt.sdk.WebView;
 import com.tencent.smtt.sdk.WebViewClient;
 
 import java.lang.ref.WeakReference;
+import java.net.URLDecoder;
 import java.util.HashMap;
 import java.util.Timer;
 import java.util.TimerTask;
@@ -188,6 +193,34 @@ public class X5Chrome extends WebView {
                     }
                     return true;
                 }
+
+                /*@Override
+                public WebResourceRequest shouldInterceptRequest(WebView view, String url) {
+                    try {
+                        url = URLDecoder.decode(url, "utf-8");
+                    }
+                    catch (Exception e) {
+                        e.printStackTrace();
+                    }
+
+                    InterceptorHandler handler = interceptor.GetInterceptHandle(url);
+
+                    // Do not take over
+                    if (handler == null) {
+                        Log.d("Intercept", url + " (pass)");
+                        return super.shouldInterceptRequest(view, url);
+                    }
+
+                    // Take over
+                    Log.d("Intercept", url + " (took over)");
+                    WebResourceResponse response = handler.handle(interceptor);
+                    HashMap<String, String> extraHeaders = new HashMap<>();
+                    extraHeaders.put("Referer", url);
+                    extraHeaders.put("X-Intercept-Take-Over", "1");
+                    response.setResponseHeaders(extraHeaders);
+
+                    return response;
+                }*/
             });
             String url = ctx.getResources().getString(R.string.init_url);
             // 需要加上referer，否则有些服务器会拒绝加载页面
