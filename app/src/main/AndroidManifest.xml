@@ -67,6 +67,12 @@
             android:hardwareAccelerated="true"
             android:screenOrientation="portrait"
             android:theme="@style/NoActionBarButStatusBar" />
+        <!--扫描二维码-->
+        <activity
+            android:name="com.iqos.qrscanner.app.QRScannerActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
     </application>
 
 </manifest>

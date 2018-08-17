@@ -10,7 +10,7 @@ import android.support.annotation.NonNull;
 
 import com.github.dfqin.grantor.PermissionListener;
 import com.github.dfqin.grantor.PermissionsUtil;
-import com.iqos.qrcodedemo.common.utils.QRCodeUtils;
+import com.iqos.qrscanner.utils.QRCodeUtils;
 import com.kupay.kupay.R;
 import com.kupay.kupay.base.BaseJSModule;
 import com.kupay.kupay.common.js.JSCallback;

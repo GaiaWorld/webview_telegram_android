@@ -140,6 +140,10 @@ public class X5Chrome extends WebView {
                 public void onPageStarted(WebView view, String url, Bitmap favicon) {
                     super.onPageStarted(view, url, favicon);
                     setShowTimeOut(false);
+                    if (null != mTimer) {
+                        mTimer.cancel();
+                        mTimer.purge();
+                    }
                     mTimer = new Timer();
                     TimerTask timerTask = new TimerTask() {
                         @Override

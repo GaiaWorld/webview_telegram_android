@@ -10,68 +10,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ceacf3b-9f69-430b-ac0b-09e9c47945d0" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__cn_sharesdk_OneKeyShare_3_2_1_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__cn_sharesdk_ShareSDK_3_2_1_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__cn_sharesdk_ShareSDK_Line_3_2_1_2_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__cn_sharesdk_ShareSDK_QQ_3_2_1_2_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__cn_sharesdk_ShareSDK_QZone_3_2_1_2_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__cn_sharesdk_ShareSDK_Wechat_3_2_1_2_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__cn_sharesdk_ShareSDK_Wechat_Core_3_2_1_2_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__cn_sharesdk_ShareSDK_Wechat_Moments_3_2_1_2_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_airbnb_android_lottie_2_5_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_25_3_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_25_3_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_1_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_instrumentation_1_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_palette_v7_25_3_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_25_3_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_25_3_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_25_3_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_25_3_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_25_3_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_25_3_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_media_compat_25_3_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v13_25_3_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_25_3_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_25_3_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_annotations_4_7_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_disklrucache_4_7_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_gifdecoder_4_7_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_glide_4_7_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_chrisbanes_PhotoView_2_1_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_dfqin_grantor_2_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_iqosjay_ImageSelector_v1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_base_15_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_15_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_clearcut_15_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_flags_15_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_gcm_15_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_identity_15_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_iid_15_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_maps_15_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_phenotype_15_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_stats_15_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tasks_15_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_vision_15_0_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_vision_common_15_0_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_wallet_15_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_wearable_15_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_1_7_2_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_zxing_core_3_3_2_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_googlecode_mp4parser_isoparser_1_0_6_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_journeyapps_zxing_android_embedded_3_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_mob_MobCommons_2018_0704_1311_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_mob_MobGUI_2018_0704_1157_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_mob_MobTools_2018_0704_1157_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_mob_SDKWrapper_2018_0801_1824_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_stripe_stripe_android_2_0_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_tencent_mm_opensdk_wechat_sdk_android_with_mta_5_1_4_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_hockeyapp_android_HockeySDK_4_1_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_http_legacy_android_27.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_aspectj_aspectjrt_1_8_2_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/webview_telegram_android.iml" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" />
@@ -83,167 +21,21 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_zxing_core_3_3_2_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_journeyapps_zxing_android_embedded_3_6_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/app/release/app-release.apk" afterPath="$PROJECT_DIR$/app/release/app-release.apk" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/index.html" afterPath="$PROJECT_DIR$/app/src/main/assets/index.html" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kupay/kupay/module/ImagePicker.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/kupay/kupay/module/ImagePicker.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
-      <change beforePath="$PROJECT_DIR$/argon2jni/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/argon2jni/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/CMakeOutput.log" />
-      <change beforePath="$PROJECT_DIR$/argon2jni/.externalNativeBuild/cmake/debug/arm64-v8a/android_gradle_build_mini.json" afterPath="$PROJECT_DIR$/argon2jni/.externalNativeBuild/cmake/debug/arm64-v8a/android_gradle_build_mini.json" />
-      <change beforePath="$PROJECT_DIR$/argon2jni/.externalNativeBuild/cmake/debug/arm64-v8a/cmake_build_command.txt" afterPath="$PROJECT_DIR$/argon2jni/.externalNativeBuild/cmake/debug/arm64-v8a/cmake_build_command.txt" />
-      <change beforePath="$PROJECT_DIR$/argon2jni/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/argon2jni/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeOutput.log" />
-      <change beforePath="$PROJECT_DIR$/argon2jni/.externalNativeBuild/cmake/debug/armeabi-v7a/android_gradle_build_mini.json" afterPath="$PROJECT_DIR$/argon2jni/.externalNativeBuild/cmake/debug/armeabi-v7a/android_gradle_build_mini.json" />
-      <change beforePath="$PROJECT_DIR$/argon2jni/.externalNativeBuild/cmake/debug/armeabi-v7a/cmake_build_command.txt" afterPath="$PROJECT_DIR$/argon2jni/.externalNativeBuild/cmake/debug/armeabi-v7a/cmake_build_command.txt" />
-      <change beforePath="$PROJECT_DIR$/argon2jni/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/argon2jni/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeOutput.log" />
-      <change beforePath="$PROJECT_DIR$/argon2jni/.externalNativeBuild/cmake/debug/x86/android_gradle_build_mini.json" afterPath="$PROJECT_DIR$/argon2jni/.externalNativeBuild/cmake/debug/x86/android_gradle_build_mini.json" />
-      <change beforePath="$PROJECT_DIR$/argon2jni/.externalNativeBuild/cmake/debug/x86/cmake_build_command.txt" afterPath="$PROJECT_DIR$/argon2jni/.externalNativeBuild/cmake/debug/x86/cmake_build_command.txt" />
-      <change beforePath="$PROJECT_DIR$/argon2jni/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/argon2jni/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/CMakeOutput.log" />
-      <change beforePath="$PROJECT_DIR$/argon2jni/.externalNativeBuild/cmake/debug/x86_64/android_gradle_build_mini.json" afterPath="$PROJECT_DIR$/argon2jni/.externalNativeBuild/cmake/debug/x86_64/android_gradle_build_mini.json" />
-      <change beforePath="$PROJECT_DIR$/argon2jni/.externalNativeBuild/cmake/debug/x86_64/cmake_build_command.txt" afterPath="$PROJECT_DIR$/argon2jni/.externalNativeBuild/cmake/debug/x86_64/cmake_build_command.txt" />
-      <change beforePath="$PROJECT_DIR$/argon2jni/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/argon2jni/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/CMakeOutput.log" />
-      <change beforePath="$PROJECT_DIR$/argon2jni/.externalNativeBuild/cmake/release/arm64-v8a/android_gradle_build_mini.json" afterPath="$PROJECT_DIR$/argon2jni/.externalNativeBuild/cmake/release/arm64-v8a/android_gradle_build_mini.json" />
-      <change beforePath="$PROJECT_DIR$/argon2jni/.externalNativeBuild/cmake/release/arm64-v8a/cmake_build_command.txt" afterPath="$PROJECT_DIR$/argon2jni/.externalNativeBuild/cmake/release/arm64-v8a/cmake_build_command.txt" />
-      <change beforePath="$PROJECT_DIR$/argon2jni/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/argon2jni/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeOutput.log" />
-      <change beforePath="$PROJECT_DIR$/argon2jni/.externalNativeBuild/cmake/release/armeabi-v7a/android_gradle_build_mini.json" afterPath="$PROJECT_DIR$/argon2jni/.externalNativeBuild/cmake/release/armeabi-v7a/android_gradle_build_mini.json" />
-      <change beforePath="$PROJECT_DIR$/argon2jni/.externalNativeBuild/cmake/release/armeabi-v7a/cmake_build_command.txt" afterPath="$PROJECT_DIR$/argon2jni/.externalNativeBuild/cmake/release/armeabi-v7a/cmake_build_command.txt" />
-      <change beforePath="$PROJECT_DIR$/argon2jni/.externalNativeBuild/cmake/release/x86/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/argon2jni/.externalNativeBuild/cmake/release/x86/CMakeFiles/CMakeOutput.log" />
-      <change beforePath="$PROJECT_DIR$/argon2jni/.externalNativeBuild/cmake/release/x86/android_gradle_build_mini.json" afterPath="$PROJECT_DIR$/argon2jni/.externalNativeBuild/cmake/release/x86/android_gradle_build_mini.json" />
-      <change beforePath="$PROJECT_DIR$/argon2jni/.externalNativeBuild/cmake/release/x86/cmake_build_command.txt" afterPath="$PROJECT_DIR$/argon2jni/.externalNativeBuild/cmake/release/x86/cmake_build_command.txt" />
-      <change beforePath="$PROJECT_DIR$/argon2jni/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/argon2jni/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeOutput.log" />
-      <change beforePath="$PROJECT_DIR$/argon2jni/.externalNativeBuild/cmake/release/x86_64/android_gradle_build_mini.json" afterPath="$PROJECT_DIR$/argon2jni/.externalNativeBuild/cmake/release/x86_64/android_gradle_build_mini.json" />
-      <change beforePath="$PROJECT_DIR$/argon2jni/.externalNativeBuild/cmake/release/x86_64/cmake_build_command.txt" afterPath="$PROJECT_DIR$/argon2jni/.externalNativeBuild/cmake/release/x86_64/cmake_build_command.txt" />
-      <change beforePath="$PROJECT_DIR$/argon2jni/argon2jni.iml" afterPath="$PROJECT_DIR$/argon2jni/argon2jni.iml" />
-      <change beforePath="$PROJECT_DIR$/argon2jni/build/generated/source/buildConfig/debug/de/wuthoehle/argon2jni/BuildConfig.java" afterPath="$PROJECT_DIR$/argon2jni/build/generated/source/buildConfig/debug/de/wuthoehle/argon2jni/BuildConfig.java" />
-      <change beforePath="$PROJECT_DIR$/argon2jni/build/intermediates/attr/R.txt" afterPath="$PROJECT_DIR$/argon2jni/build/intermediates/attr/R.txt" />
-      <change beforePath="$PROJECT_DIR$/argon2jni/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/argon2jni/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" />
-      <change beforePath="$PROJECT_DIR$/argon2jni/build/intermediates/incremental/packageDebugResources/merged.dir/values/values.xml" afterPath="$PROJECT_DIR$/argon2jni/build/intermediates/incremental/packageDebugResources/merged.dir/values/values.xml" />
-      <change beforePath="$PROJECT_DIR$/argon2jni/build/intermediates/incremental/packageDebugResources/merger.xml" afterPath="$PROJECT_DIR$/argon2jni/build/intermediates/incremental/packageDebugResources/merger.xml" />
-      <change beforePath="$PROJECT_DIR$/argon2jni/build/intermediates/manifests/aapt/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/argon2jni/build/intermediates/manifests/aapt/debug/AndroidManifest.xml" />
-      <change beforePath="$PROJECT_DIR$/argon2jni/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/argon2jni/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
-      <change beforePath="$PROJECT_DIR$/argon2jni/build/intermediates/packaged_res/debug/values/values.xml" afterPath="$PROJECT_DIR$/argon2jni/build/intermediates/packaged_res/debug/values/values.xml" />
-      <change beforePath="$PROJECT_DIR$/argon2jni/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterPath="$PROJECT_DIR$/argon2jni/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" />
-      <change beforePath="$PROJECT_DIR$/argon2jni/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/argon2jni/build/intermediates/symbols/debug/R.txt" />
-      <change beforePath="$PROJECT_DIR$/argon2jni/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/argon2jni/build/outputs/logs/manifest-merger-debug-report.txt" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/Mob/assets/ShareSDK.xml" afterPath="$PROJECT_DIR$/build/intermediates/Mob/assets/ShareSDK.xml" />
-      <change beforePath="$PROJECT_DIR$/imageselector/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imageselector/.idea/codeStyles/Project.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imageselector/.idea/gradle.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imageselector/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imageselector/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imageselector/.idea/runConfigurations.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imageselector/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imageselector/build.gradle" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imageselector/gradle/wrapper/gradle-wrapper.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imageselector/gradle/wrapper/gradle-wrapper.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imageselector/gradlew" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imageselector/gradlew.bat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imageselector/imageselector.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imageselector/local.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imageselector/proguard-rules.pro" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imageselector/src/androidTest/java/com/donkingliang/imageselector/ApplicationTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imageselector/src/main/AndroidManifest.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imageselector/src/main/java/com/donkingliang/imageselector/ClipImageActivity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imageselector/src/main/java/com/donkingliang/imageselector/ImageSelectorActivity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imageselector/src/main/java/com/donkingliang/imageselector/PreviewActivity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imageselector/src/main/java/com/donkingliang/imageselector/adapter/FolderAdapter.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imageselector/src/main/java/com/donkingliang/imageselector/adapter/ImageAdapter.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imageselector/src/main/java/com/donkingliang/imageselector/adapter/ImagePagerAdapter.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imageselector/src/main/java/com/donkingliang/imageselector/entry/Folder.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imageselector/src/main/java/com/donkingliang/imageselector/entry/Image.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imageselector/src/main/java/com/donkingliang/imageselector/model/ImageModel.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imageselector/src/main/java/com/donkingliang/imageselector/utils/DateUtils.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imageselector/src/main/java/com/donkingliang/imageselector/utils/ImageSelector.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imageselector/src/main/java/com/donkingliang/imageselector/utils/ImageSelectorUtils.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imageselector/src/main/java/com/donkingliang/imageselector/utils/ImageUtil.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imageselector/src/main/java/com/donkingliang/imageselector/utils/StringUtils.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imageselector/src/main/java/com/donkingliang/imageselector/view/ClipImageView.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imageselector/src/main/java/com/donkingliang/imageselector/view/MyViewPager.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imageselector/src/main/java/com/donkingliang/imageselector/view/SquareImageView.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imageselector/src/main/res/drawable-xhdpi/ic_gif.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imageselector/src/main/res/drawable-xhdpi/ic_photo_camera.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imageselector/src/main/res/drawable-xhdpi/icon_back.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imageselector/src/main/res/drawable-xhdpi/icon_image_select.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imageselector/src/main/res/drawable-xhdpi/icon_image_un_select.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imageselector/src/main/res/drawable-xhdpi/text_indicator.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imageselector/src/main/res/drawable/btn_back_selector.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imageselector/src/main/res/drawable/btn_foreground_selector.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imageselector/src/main/res/drawable/btn_green_shape.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imageselector/src/main/res/drawable/folder_bg.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imageselector/src/main/res/layout/activity_clip_image.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imageselector/src/main/res/layout/activity_image_select.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imageselector/src/main/res/layout/activity_preview.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imageselector/src/main/res/layout/adapter_camera.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imageselector/src/main/res/layout/adapter_folder.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imageselector/src/main/res/layout/adapter_images_item.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imageselector/src/main/res/values/strings.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/imageselector/src/test/java/com/donkingliang/imageselector/ExampleUnitTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/qrscanner/qrscanner.iml" afterPath="$PROJECT_DIR$/qrscanner/qrscanner.iml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kupay/kupay/module/QRCode.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/kupay/kupay/module/QRCode.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kupay/kupay/module/ShareToPlatforms.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/kupay/kupay/module/ShareToPlatforms.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kupay/kupay/widget/AndroidWebView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/kupay/kupay/widget/AndroidWebView.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kupay/kupay/widget/X5Chrome.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/kupay/kupay/widget/X5Chrome.java" />
+      <change beforePath="$PROJECT_DIR$/qrscanner/qrscanner.iml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
-      <change beforePath="$PROJECT_DIR$/telegram/.externalNativeBuild/ndkBuild/debug/armeabi-v7a/android_gradle_build.json" afterPath="$PROJECT_DIR$/telegram/.externalNativeBuild/ndkBuild/debug/armeabi-v7a/android_gradle_build.json" />
-      <change beforePath="$PROJECT_DIR$/telegram/.externalNativeBuild/ndkBuild/debug/armeabi-v7a/android_gradle_build_mini.json" afterPath="$PROJECT_DIR$/telegram/.externalNativeBuild/ndkBuild/debug/armeabi-v7a/android_gradle_build_mini.json" />
-      <change beforePath="$PROJECT_DIR$/telegram/.externalNativeBuild/ndkBuild/debug/armeabi-v7a/ndkBuild_build_command.txt" afterPath="$PROJECT_DIR$/telegram/.externalNativeBuild/ndkBuild/debug/armeabi-v7a/ndkBuild_build_command.txt" />
-      <change beforePath="$PROJECT_DIR$/telegram/.externalNativeBuild/ndkBuild/debug/x86/android_gradle_build.json" afterPath="$PROJECT_DIR$/telegram/.externalNativeBuild/ndkBuild/debug/x86/android_gradle_build.json" />
-      <change beforePath="$PROJECT_DIR$/telegram/.externalNativeBuild/ndkBuild/debug/x86/android_gradle_build_mini.json" afterPath="$PROJECT_DIR$/telegram/.externalNativeBuild/ndkBuild/debug/x86/android_gradle_build_mini.json" />
-      <change beforePath="$PROJECT_DIR$/telegram/.externalNativeBuild/ndkBuild/debug/x86/ndkBuild_build_command.txt" afterPath="$PROJECT_DIR$/telegram/.externalNativeBuild/ndkBuild/debug/x86/ndkBuild_build_command.txt" />
-      <change beforePath="$PROJECT_DIR$/telegram/.externalNativeBuild/ndkBuild/foss/armeabi-v7a/android_gradle_build.json" afterPath="$PROJECT_DIR$/telegram/.externalNativeBuild/ndkBuild/foss/armeabi-v7a/android_gradle_build.json" />
-      <change beforePath="$PROJECT_DIR$/telegram/.externalNativeBuild/ndkBuild/foss/armeabi-v7a/android_gradle_build_mini.json" afterPath="$PROJECT_DIR$/telegram/.externalNativeBuild/ndkBuild/foss/armeabi-v7a/android_gradle_build_mini.json" />
-      <change beforePath="$PROJECT_DIR$/telegram/.externalNativeBuild/ndkBuild/foss/armeabi-v7a/ndkBuild_build_command.txt" afterPath="$PROJECT_DIR$/telegram/.externalNativeBuild/ndkBuild/foss/armeabi-v7a/ndkBuild_build_command.txt" />
-      <change beforePath="$PROJECT_DIR$/telegram/.externalNativeBuild/ndkBuild/foss/x86/android_gradle_build.json" afterPath="$PROJECT_DIR$/telegram/.externalNativeBuild/ndkBuild/foss/x86/android_gradle_build.json" />
-      <change beforePath="$PROJECT_DIR$/telegram/.externalNativeBuild/ndkBuild/foss/x86/android_gradle_build_mini.json" afterPath="$PROJECT_DIR$/telegram/.externalNativeBuild/ndkBuild/foss/x86/android_gradle_build_mini.json" />
-      <change beforePath="$PROJECT_DIR$/telegram/.externalNativeBuild/ndkBuild/foss/x86/ndkBuild_build_command.txt" afterPath="$PROJECT_DIR$/telegram/.externalNativeBuild/ndkBuild/foss/x86/ndkBuild_build_command.txt" />
-      <change beforePath="$PROJECT_DIR$/telegram/.externalNativeBuild/ndkBuild/release/armeabi-v7a/android_gradle_build.json" afterPath="$PROJECT_DIR$/telegram/.externalNativeBuild/ndkBuild/release/armeabi-v7a/android_gradle_build.json" />
-      <change beforePath="$PROJECT_DIR$/telegram/.externalNativeBuild/ndkBuild/release/armeabi-v7a/android_gradle_build_mini.json" afterPath="$PROJECT_DIR$/telegram/.externalNativeBuild/ndkBuild/release/armeabi-v7a/android_gradle_build_mini.json" />
-      <change beforePath="$PROJECT_DIR$/telegram/.externalNativeBuild/ndkBuild/release/armeabi-v7a/ndkBuild_build_command.txt" afterPath="$PROJECT_DIR$/telegram/.externalNativeBuild/ndkBuild/release/armeabi-v7a/ndkBuild_build_command.txt" />
-      <change beforePath="$PROJECT_DIR$/telegram/.externalNativeBuild/ndkBuild/release/x86/android_gradle_build.json" afterPath="$PROJECT_DIR$/telegram/.externalNativeBuild/ndkBuild/release/x86/android_gradle_build.json" />
-      <change beforePath="$PROJECT_DIR$/telegram/.externalNativeBuild/ndkBuild/release/x86/android_gradle_build_mini.json" afterPath="$PROJECT_DIR$/telegram/.externalNativeBuild/ndkBuild/release/x86/android_gradle_build_mini.json" />
-      <change beforePath="$PROJECT_DIR$/telegram/.externalNativeBuild/ndkBuild/release/x86/ndkBuild_build_command.txt" afterPath="$PROJECT_DIR$/telegram/.externalNativeBuild/ndkBuild/release/x86/ndkBuild_build_command.txt" />
-      <change beforePath="$PROJECT_DIR$/telegram/build/generated/res/google-services/debug/values/values.xml" afterPath="$PROJECT_DIR$/telegram/build/generated/res/google-services/debug/values/values.xml" />
-      <change beforePath="$PROJECT_DIR$/telegram/build/generated/source/buildConfig/debug/org/telegram/messenger/BuildConfig.java" afterPath="$PROJECT_DIR$/telegram/build/generated/source/buildConfig/debug/org/telegram/messenger/BuildConfig.java" />
-      <change beforePath="$PROJECT_DIR$/telegram/build/intermediates/attr/R.txt" afterPath="$PROJECT_DIR$/telegram/build/intermediates/attr/R.txt" />
-      <change beforePath="$PROJECT_DIR$/telegram/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/telegram/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" />
-      <change beforePath="$PROJECT_DIR$/telegram/build/intermediates/incremental/packageDebugResources/merged.dir/values-ar/values-ar.xml" afterPath="$PROJECT_DIR$/telegram/build/intermediates/incremental/packageDebugResources/merged.dir/values-ar/values-ar.xml" />
-      <change beforePath="$PROJECT_DIR$/telegram/build/intermediates/incremental/packageDebugResources/merged.dir/values-de/values-de.xml" afterPath="$PROJECT_DIR$/telegram/build/intermediates/incremental/packageDebugResources/merged.dir/values-de/values-de.xml" />
-      <change beforePath="$PROJECT_DIR$/telegram/build/intermediates/incremental/packageDebugResources/merged.dir/values-es/values-es.xml" afterPath="$PROJECT_DIR$/telegram/build/intermediates/incremental/packageDebugResources/merged.dir/values-es/values-es.xml" />
-      <change beforePath="$PROJECT_DIR$/telegram/build/intermediates/incremental/packageDebugResources/merged.dir/values-it/values-it.xml" afterPath="$PROJECT_DIR$/telegram/build/intermediates/incremental/packageDebugResources/merged.dir/values-it/values-it.xml" />
-      <change beforePath="$PROJECT_DIR$/telegram/build/intermediates/incremental/packageDebugResources/merged.dir/values-ko/values-ko.xml" afterPath="$PROJECT_DIR$/telegram/build/intermediates/incremental/packageDebugResources/merged.dir/values-ko/values-ko.xml" />
-      <change beforePath="$PROJECT_DIR$/telegram/build/intermediates/incremental/packageDebugResources/merged.dir/values-nl/values-nl.xml" afterPath="$PROJECT_DIR$/telegram/build/intermediates/incremental/packageDebugResources/merged.dir/values-nl/values-nl.xml" />
-      <change beforePath="$PROJECT_DIR$/telegram/build/intermediates/incremental/packageDebugResources/merged.dir/values-pt-rBR/values-pt-rBR.xml" afterPath="$PROJECT_DIR$/telegram/build/intermediates/incremental/packageDebugResources/merged.dir/values-pt-rBR/values-pt-rBR.xml" />
-      <change beforePath="$PROJECT_DIR$/telegram/build/intermediates/incremental/packageDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml" afterPath="$PROJECT_DIR$/telegram/build/intermediates/incremental/packageDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml" />
-      <change beforePath="$PROJECT_DIR$/telegram/build/intermediates/incremental/packageDebugResources/merged.dir/values-sw720dp-v13/values-sw720dp-v13.xml" afterPath="$PROJECT_DIR$/telegram/build/intermediates/incremental/packageDebugResources/merged.dir/values-sw720dp-v13/values-sw720dp-v13.xml" />
-      <change beforePath="$PROJECT_DIR$/telegram/build/intermediates/incremental/packageDebugResources/merged.dir/values-v14/values-v14.xml" afterPath="$PROJECT_DIR$/telegram/build/intermediates/incremental/packageDebugResources/merged.dir/values-v14/values-v14.xml" />
-      <change beforePath="$PROJECT_DIR$/telegram/build/intermediates/incremental/packageDebugResources/merged.dir/values-v15/values-v15.xml" afterPath="$PROJECT_DIR$/telegram/build/intermediates/incremental/packageDebugResources/merged.dir/values-v15/values-v15.xml" />
-      <change beforePath="$PROJECT_DIR$/telegram/build/intermediates/incremental/packageDebugResources/merged.dir/values-v16/values-v16.xml" afterPath="$PROJECT_DIR$/telegram/build/intermediates/incremental/packageDebugResources/merged.dir/values-v16/values-v16.xml" />
-      <change beforePath="$PROJECT_DIR$/telegram/build/intermediates/incremental/packageDebugResources/merged.dir/values-v21/values-v21.xml" afterPath="$PROJECT_DIR$/telegram/build/intermediates/incremental/packageDebugResources/merged.dir/values-v21/values-v21.xml" />
-      <change beforePath="$PROJECT_DIR$/telegram/build/intermediates/incremental/packageDebugResources/merged.dir/values/values.xml" afterPath="$PROJECT_DIR$/telegram/build/intermediates/incremental/packageDebugResources/merged.dir/values/values.xml" />
-      <change beforePath="$PROJECT_DIR$/telegram/build/intermediates/incremental/packageDebugResources/merger.xml" afterPath="$PROJECT_DIR$/telegram/build/intermediates/incremental/packageDebugResources/merger.xml" />
-      <change beforePath="$PROJECT_DIR$/telegram/build/intermediates/manifests/aapt/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/telegram/build/intermediates/manifests/aapt/debug/AndroidManifest.xml" />
-      <change beforePath="$PROJECT_DIR$/telegram/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/telegram/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
-      <change beforePath="$PROJECT_DIR$/telegram/build/intermediates/packaged_res/debug/values-ar/values-ar.xml" afterPath="$PROJECT_DIR$/telegram/build/intermediates/packaged_res/debug/values-ar/values-ar.xml" />
-      <change beforePath="$PROJECT_DIR$/telegram/build/intermediates/packaged_res/debug/values-de/values-de.xml" afterPath="$PROJECT_DIR$/telegram/build/intermediates/packaged_res/debug/values-de/values-de.xml" />
-      <change beforePath="$PROJECT_DIR$/telegram/build/intermediates/packaged_res/debug/values-es/values-es.xml" afterPath="$PROJECT_DIR$/telegram/build/intermediates/packaged_res/debug/values-es/values-es.xml" />
-      <change beforePath="$PROJECT_DIR$/telegram/build/intermediates/packaged_res/debug/values-it/values-it.xml" afterPath="$PROJECT_DIR$/telegram/build/intermediates/packaged_res/debug/values-it/values-it.xml" />
-      <change beforePath="$PROJECT_DIR$/telegram/build/intermediates/packaged_res/debug/values-ko/values-ko.xml" afterPath="$PROJECT_DIR$/telegram/build/intermediates/packaged_res/debug/values-ko/values-ko.xml" />
-      <change beforePath="$PROJECT_DIR$/telegram/build/intermediates/packaged_res/debug/values-nl/values-nl.xml" afterPath="$PROJECT_DIR$/telegram/build/intermediates/packaged_res/debug/values-nl/values-nl.xml" />
-      <change beforePath="$PROJECT_DIR$/telegram/build/intermediates/packaged_res/debug/values-pt-rBR/values-pt-rBR.xml" afterPath="$PROJECT_DIR$/telegram/build/intermediates/packaged_res/debug/values-pt-rBR/values-pt-rBR.xml" />
-      <change beforePath="$PROJECT_DIR$/telegram/build/intermediates/packaged_res/debug/values-sw600dp-v13/values-sw600dp-v13.xml" afterPath="$PROJECT_DIR$/telegram/build/intermediates/packaged_res/debug/values-sw600dp-v13/values-sw600dp-v13.xml" />
-      <change beforePath="$PROJECT_DIR$/telegram/build/intermediates/packaged_res/debug/values-sw720dp-v13/values-sw720dp-v13.xml" afterPath="$PROJECT_DIR$/telegram/build/intermediates/packaged_res/debug/values-sw720dp-v13/values-sw720dp-v13.xml" />
-      <change beforePath="$PROJECT_DIR$/telegram/build/intermediates/packaged_res/debug/values-v14/values-v14.xml" afterPath="$PROJECT_DIR$/telegram/build/intermediates/packaged_res/debug/values-v14/values-v14.xml" />
-      <change beforePath="$PROJECT_DIR$/telegram/build/intermediates/packaged_res/debug/values-v15/values-v15.xml" afterPath="$PROJECT_DIR$/telegram/build/intermediates/packaged_res/debug/values-v15/values-v15.xml" />
-      <change beforePath="$PROJECT_DIR$/telegram/build/intermediates/packaged_res/debug/values-v16/values-v16.xml" afterPath="$PROJECT_DIR$/telegram/build/intermediates/packaged_res/debug/values-v16/values-v16.xml" />
-      <change beforePath="$PROJECT_DIR$/telegram/build/intermediates/packaged_res/debug/values-v21/values-v21.xml" afterPath="$PROJECT_DIR$/telegram/build/intermediates/packaged_res/debug/values-v21/values-v21.xml" />
-      <change beforePath="$PROJECT_DIR$/telegram/build/intermediates/packaged_res/debug/values/values.xml" afterPath="$PROJECT_DIR$/telegram/build/intermediates/packaged_res/debug/values/values.xml" />
-      <change beforePath="$PROJECT_DIR$/telegram/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterPath="$PROJECT_DIR$/telegram/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" />
-      <change beforePath="$PROJECT_DIR$/telegram/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/telegram/build/intermediates/symbols/debug/R.txt" />
-      <change beforePath="$PROJECT_DIR$/telegram/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/telegram/build/outputs/logs/manifest-merger-debug-report.txt" />
-      <change beforePath="$PROJECT_DIR$/telegram/telegram.iml" afterPath="$PROJECT_DIR$/telegram/telegram.iml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -275,8 +67,18 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="66" column="46" lean-forward="false" selection-start-line="66" selection-start-column="46" selection-end-line="66" selection-end-column="46" />
+            <state relative-caret-position="752">
+              <caret line="71" column="67" lean-forward="false" selection-start-line="71" selection-start-column="67" selection-end-line="71" selection-end-column="67" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="35" column="12" lean-forward="false" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -285,8 +87,28 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="145" column="30" lean-forward="false" selection-start-line="145" selection-start-column="30" selection-end-line="145" selection-end-column="30" />
+            <state relative-caret-position="202">
+              <caret line="144" column="65" lean-forward="false" selection-start-line="144" selection-start-column="65" selection-end-line="144" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gradle.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.gradle/gradle.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QRCode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/kupay/kupay/module/QRCode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="10" column="47" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -295,8 +117,8 @@
       <file leaf-file-name="settings.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/settings.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -315,40 +137,28 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/assets/index.html">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="33" column="31" lean-forward="false" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidWebView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/kupay/kupay/widget/AndroidWebView.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="638">
-              <caret line="43" column="31" lean-forward="false" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+              <caret line="195" column="69" lean-forward="false" selection-start-line="195" selection-start-column="69" selection-end-line="195" selection-end-column="69" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+      <file leaf-file-name="X5Chrome.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/kupay/kupay/widget/X5Chrome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ImagePicker.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/kupay/kupay/module/ImagePicker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="84" column="60" lean-forward="false" selection-start-line="84" selection-start-column="60" selection-end-line="84" selection-end-column="60" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qrscanner/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-88">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="522">
+              <caret line="145" column="21" lean-forward="false" selection-start-line="145" selection-start-column="21" selection-end-line="145" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -397,10 +207,6 @@
               <ExternalProjectPojo>
                 <option name="name" value=":argon2jni" />
                 <option name="path" value="$PROJECT_DIR$/argon2jni" />
-              </ExternalProjectPojo>
-              <ExternalProjectPojo>
-                <option name="name" value=":qrscanner" />
-                <option name="path" value="$PROJECT_DIR$/qrscanner" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
                 <option name="name" value=":telegram" />
@@ -6519,10 +6325,14 @@
         <option value="$PROJECT_DIR$/build/intermediates/Mob/assets/ShareSDK.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/kupay/kupay/module/ImagePicker.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/kupay/kupay/module/QRCode.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/kupay/kupay/module/ShareToPlatforms.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/kupay/kupay/widget/X5Chrome.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/kupay/kupay/widget/AndroidWebView.java" />
         <option value="$PROJECT_DIR$/app/src/main/assets/index.html" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/settings.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
       </list>
     </option>
   </component>
@@ -6561,31 +6371,6 @@
             </path>
             <path>
               <item name="webview_telegram_android" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="webview_telegram_android" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="kupay" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webview_telegram_android" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="kupay" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webview_telegram_android" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="kupay" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="module" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webview_telegram_android" type="1abcf292:AndroidViewProjectNode" />
               <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
             </path>
           </expand>
@@ -6599,7 +6384,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
     <property name="android.sdk.path" value="B:/AndroidSDK/sdk" />
-    <property name="last_opened_file_path" value="A:/key/yineng.keystore" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../demo/QRScanner" />
     <property name="ExportApk.ApkPath" value="B:\AndroidWorkSpace\CompanyProject\webview_telegram_android\app" />
     <property name="ExportApk.Flavors" value="" />
     <property name="ExportApk.BuildType" value="release" />
@@ -6655,7 +6440,7 @@
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="true" />
       <option name="PREFERRED_AVD" value="" />
       <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
       <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
@@ -6773,6 +6558,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -6845,14 +6631,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="37" column="40" lean-forward="false" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/qrscanner/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-88">
@@ -6898,7 +6676,7 @@
         <state relative-caret-position="580">
           <caret line="84" column="60" lean-forward="false" selection-start-line="84" selection-start-column="60" selection-end-line="84" selection-end-column="60" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -6911,6 +6689,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/QRScanner-2.1.3.aar/13362ea61ac40aab18894ff19ec521ca/jars/classes.jar!/com/iqos/qrscanner/utils/QRCodeUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-500">
+          <caret line="60" column="25" lean-forward="false" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/kupay/kupay/module/ShareToPlatforms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-956">
+          <caret line="258" column="5" lean-forward="false" selection-start-line="258" selection-start-column="5" selection-end-line="258" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/kupay/kupay/module/QRCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="47" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/QRScanner-2.1.3.aar/13362ea61ac40aab18894ff19ec521ca/jars/classes.jar!/com/iqos/qrscanner/app/QRScannerActivity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="207" column="0" lean-forward="true" selection-start-line="207" selection-start-column="0" selection-end-line="207" selection-end-column="0" />
+          <folding>
+            <marker date="1534472045033" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1534472045033" expanded="false" signature="146:1198" ph="..." />
+            <marker date="1534472045033" expanded="false" signature="1920:2008" ph="onCompletion(mediaPlayer) → {" />
+            <marker date="1534472045033" expanded="false" signature="2048:2059" ph="}" />
+            <marker date="1534472045033" expanded="true" signature="2093:2100" ph="{}" />
+            <marker date="1534472045033" expanded="true" signature="2157:2340" ph="{...}" />
+            <marker date="1534472045033" expanded="true" signature="2374:2616" ph="{...}" />
+            <marker date="1534472045033" expanded="false" signature="2656:2667" ph=" { " />
+            <marker date="1534472045033" expanded="false" signature="2700:2706" ph=" }" />
+            <marker date="1534472045033" expanded="true" signature="2739:2900" ph="{...}" />
+            <marker date="1534472045033" expanded="true" signature="2928:3618" ph="{...}" />
+            <marker date="1534472045033" expanded="false" signature="3445:3514" ph="onClick(v) → {" />
+            <marker date="1534472045033" expanded="false" signature="3580:3599" ph="}" />
+            <marker date="1534472045033" expanded="true" signature="3650:4374" ph="{...}" />
+            <marker date="1534472045033" expanded="true" signature="4405:4606" ph="{...}" />
+            <marker date="1534472045033" expanded="true" signature="4639:4714" ph="{...}" />
+            <marker date="1534472045033" expanded="true" signature="4760:5006" ph="{...}" />
+            <marker date="1534472045033" expanded="true" signature="5065:5395" ph="{...}" />
+            <marker date="1534472045033" expanded="true" signature="5485:5492" ph="{}" />
+            <marker date="1534472045033" expanded="true" signature="5547:5670" ph="{...}" />
+            <marker date="1534472045033" expanded="false" signature="5726:5737" ph=" { " />
+            <marker date="1534472045033" expanded="false" signature="5761:5767" ph=" }" />
+            <marker date="1534472045033" expanded="false" signature="5800:5811" ph=" { " />
+            <marker date="1534472045033" expanded="false" signature="5831:5837" ph=" }" />
+            <marker date="1534472045033" expanded="false" signature="5871:5882" ph=" { " />
+            <marker date="1534472045033" expanded="false" signature="5914:5920" ph=" }" />
+            <marker date="1534472045033" expanded="true" signature="5955:6697" ph="{...}" />
+            <marker date="1534472045033" expanded="true" signature="6750:7069" ph="{...}" />
+            <marker date="1534472045033" expanded="true" signature="7115:7221" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/assets/loading_dots.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -6919,26 +6761,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/index.html">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/kupay/kupay/widget/X5Chrome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="43" column="31" lean-forward="false" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+        <state relative-caret-position="522">
+          <caret line="145" column="21" lean-forward="false" selection-start-line="145" selection-start-column="21" selection-end-line="145" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="145" column="30" lean-forward="false" selection-start-line="145" selection-start-column="30" selection-end-line="145" selection-end-column="30" />
+        <state relative-caret-position="58">
+          <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/kupay/kupay/widget/AndroidWebView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="195" column="69" lean-forward="false" selection-start-line="195" selection-start-column="69" selection-end-line="195" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qrscanner/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-87">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="33" column="31" lean-forward="false" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="35" column="12" lean-forward="false" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.gradle/gradle.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="144" column="65" lean-forward="false" selection-start-line="144" selection-start-column="65" selection-end-line="144" selection-end-column="65" />
           <folding />
         </state>
       </provider>
@@ -6948,8 +6841,8 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="66" column="46" lean-forward="false" selection-start-line="66" selection-start-column="46" selection-end-line="66" selection-end-column="46" />
+        <state relative-caret-position="752">
+          <caret line="71" column="67" lean-forward="false" selection-start-line="71" selection-start-column="67" selection-end-line="71" selection-end-column="67" />
           <folding />
         </state>
       </provider>

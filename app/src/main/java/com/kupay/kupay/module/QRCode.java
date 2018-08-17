@@ -8,7 +8,7 @@ import android.text.TextUtils;
 
 import com.github.dfqin.grantor.PermissionListener;
 import com.github.dfqin.grantor.PermissionsUtil;
-import com.iqos.qrcodedemo.common.app.QRScannerActivity;
+import com.iqos.qrscanner.app.QRScannerActivity;
 import com.kupay.kupay.base.BaseJSModule;
 import com.kupay.kupay.common.js.JSCallback;
 
@@ -44,7 +44,6 @@ public class QRCode extends BaseJSModule {
     private void jumpToScanQRCode() {
         Intent intent = new Intent(ctx, QRScannerActivity.class);
         ctx.startActivityForResult(intent, QRScannerActivity.SCAN_RESULT_CODE);
-        ctx.overridePendingTransition(com.iqos.qrcodedemo.R.anim.app_in_down_to_up, com.iqos.qrcodedemo.R.anim.app_enter_exit_stay);
     }
 
     /**

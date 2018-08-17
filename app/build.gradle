@@ -142,12 +142,10 @@ dependencies {
     implementation 'com.tencent.mm.opensdk:wechat-sdk-android-with-mta:+'
     implementation 'com.github.dfqin:grantor:2.5'
     implementation 'org.kie.modules:com-google-code-gson:6.5.0.Final'
-    implementation 'com.journeyapps:zxing-android-embedded:3.6.0'
-    implementation 'com.github.iqosjay:ImageSelector:v1.0'
-    api project(':argon2jni')
-    api project(':qrscanner')
+    implementation 'com.github.iqosjay:ImageSelector:v1.0'//图片选择器
+    implementation 'com.github.iqosjay:QRScanner:2.1.3'//二维码扫描
+    api project(':argon2jni')//argon2Hash
     api project(':telegram')
-//    implementation 'com.github.iqosjay:QRScanner:2.1.2'
 }
 
 configurations.all {
