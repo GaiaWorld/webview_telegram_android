@@ -66,25 +66,7 @@
             android:name=".app.App"
             android:hardwareAccelerated="true"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme" />
-        <!--选择照片-->
-        <activity
-            android:name="com.donkingliang.imageselector.ImageSelectorActivity"
-            android:launchMode="singleTop"
-            android:screenOrientation="portrait" />
-        <!--预览-->
-        <activity
-            android:name="com.donkingliang.imageselector.PreviewActivity"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:launchMode="singleTop"
-            android:screenOrientation="portrait"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <!--裁剪图片-->
-        <activity
-            android:name="com.donkingliang.imageselector.ClipImageActivity"
-            android:launchMode="singleTop"
-            android:screenOrientation="portrait"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+            android:theme="@style/NoActionBarButStatusBar" />
     </application>
 
 </manifest>

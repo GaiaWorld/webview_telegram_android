@@ -38,9 +38,9 @@
 (function(){
 // 提前加载index.html，并检查网络
 
-<!--var url = "http://192.168.33.93:8088/dst/boot/index.html" + "?" + (new Date().getTime());-->
+var url = "http://192.168.33.93:8088/dst/boot/index.html" + "?" + (new Date().getTime());
 <!--var url = "https://www.baidu.com";-->
-var url = "http://47.106.176.185:8080/wallet/app/boot/index.html";
+<!--var url = "http://47.106.176.185:8080/wallet/app/boot/index.html";-->
 var xhr = new XMLHttpRequest();
 xhr.timeout = 5000;
 xhr.onerror = function (ev) {

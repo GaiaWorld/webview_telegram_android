@@ -6,10 +6,10 @@ import android.os.AsyncTask;
 import android.support.annotation.NonNull;
 import android.text.TextUtils;
 
-import com.donkingliang.imageselector.utils.ImageSelector;
-import com.donkingliang.imageselector.utils.ImageSelectorUtils;
 import com.github.dfqin.grantor.PermissionListener;
 import com.github.dfqin.grantor.PermissionsUtil;
+import com.iqos.imageselector.utils.ImageSelector;
+import com.iqos.imageselector.utils.ImageSelectorUtils;
 import com.kupay.kupay.app.App;
 import com.kupay.kupay.app.YNApplication;
 import com.kupay.kupay.base.BaseJSModule;

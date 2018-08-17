@@ -1,1 +1,1 @@
-include ':app',':imageselector',':argon2jni',':qrscanner',':telegram'
+include ':app',':argon2jni',':qrscanner',':telegram'
