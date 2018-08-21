@@ -1,10 +1,15 @@
 package com.kupay.kupay.interceptor;
 
+import android.app.AlarmManager;
+import android.app.PendingIntent;
+import android.content.Context;
+import android.content.Intent;
 import android.util.Log;
 import android.webkit.MimeTypeMap;
 import android.webkit.WebResourceResponse;
 import android.webkit.WebView;
 
+import com.kupay.kupay.app.SplashActivity;
 import com.kupay.kupay.app.YNApplication;
 
 import java.io.BufferedOutputStream;
@@ -30,22 +35,29 @@ import java.net.URL;
 
 public class Interceptor {
 
-    private class InterceptorStatus {
+    public static class InterceptorStatus {
         /*
             Give a state than determine if force fetch from the server
          */
         public boolean forceFetchFromServer = false;
+
+        public boolean forceFetchFromLocal = false;
 
         /*
             Specified server addresses
          */
         public List<String> serverAddresses = new ArrayList<>();
 
+        public void init() {
+            forceFetchFromLocal = forceFetchFromServer = false;
+            serverAddresses.clear();
+        }
+
     }
 
     HashMap<String, InterceptorHandler> handlerHashMap = new HashMap<>();
 
-    InterceptorStatus status = new InterceptorStatus();
+    public static InterceptorStatus status = new InterceptorStatus();
 
     /* Information during fetch */
     String protocol = "";
@@ -66,10 +78,10 @@ public class Interceptor {
         handlerHashMap.put("setflag", new SetFlagHandler());
         handlerHashMap.put("setserveraddr", new SetServerAddress());
         handlerHashMap.put("reload", new ReloadHandler());
-        handlerHashMap.put("applyupload", new ApplyUpdateHandler());
+        handlerHashMap.put("applyupdate", new ApplyUpdateHandler());
 
         // Add exceptions
-        exceptions.add("index.js");
+        //exceptions.add("index.js");
     }
 
     public void setWebView(Object webView) {
@@ -118,7 +130,7 @@ public class Interceptor {
             String HTML = "";
 
             while ((inputChar = br.readLine()) != null) {
-                HTML += (inputChar);
+                HTML += (inputChar) + "\n";
             }
             return HTML;
 
@@ -134,12 +146,42 @@ public class Interceptor {
      * @return InterceptorHandler if intercepted, otherwise null
      */
     public InterceptorHandler GetInterceptHandle(String url) {
-        Pattern pattern = Pattern.compile("(http(s?))://(\\$?([\\w\\d-_\\.]+))/?(.*)$");
+        Pattern pattern = Pattern.compile("(http(s?))://([\\w\\d-_\\.]+)/\\$(\\w+)/(.*)$");
         Matcher matcher = pattern.matcher(url);
 
-        if (!matcher.find())
+        if (!matcher.find()) {
             // If does not match above regular expression
-            return null;
+            // means it is a normal request
+
+            // get protocol, server address, uri
+            pattern = Pattern.compile("(http(s?))://([\\w\\d-_\\.]+)/(.*)$");
+            matcher = pattern.matcher(url);
+
+            if (!matcher.find())
+                return null;
+
+            protocol = matcher.group(1);
+            serverAddress = matcher.group(3);
+            actionName = null;
+            URI = matcher.group(4);
+            URL = url;
+
+            // Test status: if fetch from server then direct fetch from server
+            if (status.forceFetchFromServer)
+                return null;
+
+            if (!status.forceFetchFromLocal) {
+                // if is exception situation
+                //   for the wallet project, always let index.js pass
+                for (String exception : exceptions) {
+                    if (URI.contains(exception) && !status.forceFetchFromLocal)
+                        return null;
+                }
+            }
+
+            // else get resource locally via uri
+            return new FetchFromLocalHandler();
+        }
 
         protocol = matcher.group(1);
         serverAddress = matcher.group(3);
@@ -151,25 +193,6 @@ public class Interceptor {
         if (status.serverAddresses.isEmpty())
             status.serverAddresses.add(protocol + "://" + serverAddress);
 
-        // If server address does not start with '/' maeans it's a normal URL,
-        // instead of an API we defined
-        if (serverAddress.equals(actionName)) {
-            // Test status: if fetch from server then direct fetch from server
-            if (status.forceFetchFromServer)
-                return null;
-
-            // if is exception situation
-            //   for the wallet project, always let index.js pass
-            for (String exception : exceptions) {
-                if (URI.contains(exception))
-                    return null;
-            }
-
-            // else get resource locally via uri
-            return new FetchFromLocalHandler();
-        }
-
-        // else is action name
         InterceptorHandler interceptorHandler = handlerHashMap.get(actionName);
         if (interceptorHandler == null) {
             // no such handler
@@ -189,6 +212,7 @@ public class Interceptor {
 
         public FetchFromLocalHandler() {
             fileInsideDataPatition.add("index.html");
+            fileInsideDataPatition.add("index.js");
             fileInsideDataPatition.add("init.js");
             fileInsideDataPatition.add(".depend");
             fileInsideDataPatition.add("depend");
@@ -220,6 +244,9 @@ public class Interceptor {
             for (String _file : fileInsideDataPatition) {
                 // Be able to fetch inside the data partition
                 if (getURI().contains(_file)) {
+                    // only take over /app/boot/index.js
+                    if (_file.equals("index.js") && !getURI().contains("app/boot/index.js"))
+                        break;
                     file = "/data/data/" + packageName + "/" + _file;
                     File f = new File(file);
 
@@ -227,6 +254,9 @@ public class Interceptor {
                     if(f.exists() && !f.isDirectory()) {
                         try {
                             in = new FileInputStream(file);
+                            Log.d("LoadData", "load from data partition: " + file);
+                            String mimeType = MimeTypeMap.getSingleton().getMimeTypeFromExtension(MimeTypeMap.getFileExtensionFromUrl(getURL().split("\\?")[0]));
+                            return new WebResourceResponse(mimeType, "UTF-8", in);
                         }
                         catch (Exception e) {
                             e.printStackTrace();
@@ -236,16 +266,24 @@ public class Interceptor {
                     break;
                 }
             }
-
+            String assetFileName = null;
             // fetch inside android asset
             try {
-                String assetFileName = getURI().split("\\?")[0];
+                assetFileName = getURI().split("\\?")[0];
+
+                // if asset is .depend, find depend instead because when package APKs, .depend was renamed to depend,
+                if (assetFileName.contains(".depend")) {
+                    assetFileName = assetFileName.replace(".depend", "depend");
+                }
                 in = YNApplication.getAppCtx().getAssets().open(assetFileName);
+                Log.d("Assert Mapping", assetFileName + " => " + getURL() + "  :::uri:::" + getURI());
             }
             // Get local file
             catch (Exception e) {
                 e.printStackTrace();
             }
+
+            Log.d("ASSRT FETCH", getURI());
 
             if (in == null)
                 return null;
@@ -262,7 +300,10 @@ public class Interceptor {
             status.serverAddresses.add("192.168.33.122");
             String result = "true";
             try {
-                String content = getHTMLContent(new URL(getProtocol() + "://" + status.serverAddresses.get(0) + "/" + getURI()));
+                String uri = getURI();
+                if (uri.contains(".depend"))
+                    uri = "wallet/.depend";
+                String content = getHTMLContent(new URL(getProtocol() + "://" + status.serverAddresses.get(0) + "/" + uri));
                 staticRes.put("" + getURI().split("\\?")[0], content);
                 Log.d("pending", "[" + getURI().split("\\?")[0] + "]" + content);
             }
@@ -294,9 +335,27 @@ public class Interceptor {
             String packageName = YNApplication.getAppCtx().getPackageName();
             if (settingName.equals("force-server-fetch")) {
                 status.forceFetchFromServer = true;
+                status.forceFetchFromLocal = false;
             }
             else if (settingName.equals("local-fetch")) {
                 status.forceFetchFromServer = false;
+                status.forceFetchFromLocal = false;
+            }
+            else if (settingName.equals("force-fetch-from-local")) {
+                status.forceFetchFromServer = false;
+                status.forceFetchFromLocal = true;
+            }
+            else if (settingName.equals("close-app")) {
+                System.exit(0);
+            }
+            else if (settingName.equals("restart-app")) {
+                Context context = YNApplication.getAppCtx();
+                Intent mStartActivity = new Intent(context, SplashActivity.class);
+                int mPendingIntentId = 123456;
+                PendingIntent mPendingIntent = PendingIntent.getActivity(context, mPendingIntentId,    mStartActivity, PendingIntent.FLAG_CANCEL_CURRENT);
+                AlarmManager mgr = (AlarmManager)context.getSystemService(Context.ALARM_SERVICE);
+                mgr.set(AlarmManager.RTC, System.currentTimeMillis() + 100, mPendingIntent);
+                System.exit(0);
             }
             else {
                 returnValue = "false";
@@ -372,9 +431,24 @@ public class Interceptor {
             String returnValue = "true", message = "";
             String packageName = YNApplication.getAppCtx().getPackageName();
             for (String filename : staticRes.keySet()) {
-                String file = "/data/data/" + packageName + "/" + filename;
+                String[] part = filename.split("/");
+                if (part.length == 0)
+                    throw new IndexOutOfBoundsException();
+                String file = "/data/data/" + packageName + "/" + part[part.length-1];
+                File ftest = new File(file);
+                if (ftest.exists())
+                    ftest.delete();
                 try (PrintWriter out = new PrintWriter(file)) {
-                    out.println(staticRes.get(filename));
+                    Object content = staticRes.get(filename);
+                    if (content instanceof String) {
+                        out.write((String)content);
+                    }
+                    else if (content instanceof char[]){
+                        out.write((char[])content);
+                    }
+                    else {
+                        out.write(content.toString());
+                    }
                 }
                 catch (Exception e) {
                     returnValue = "false";
