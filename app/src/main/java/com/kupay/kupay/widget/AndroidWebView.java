@@ -204,12 +204,20 @@ public class AndroidWebView extends WebView {
 
                 @Override
                 public WebResourceResponse shouldInterceptRequest(WebView view, String url) {
+                    Interceptor interceptor = new Interceptor();
+
                     try {
                         url = URLDecoder.decode(url, "utf-8");
                     }
                     catch (Exception e) {
                         e.printStackTrace();
                     }
+
+                    //String url1 = url;
+                    //url = url.replaceAll("/wallet/(\\w+)/(\\w+)/wallet/", "/wallet/");
+                    //if (!url1.equals(url)) {
+                    //    Log.d("URL Currectify", url1 + " => " + url);
+                    //}
 
                     InterceptorHandler handler = interceptor.GetInterceptHandle(url);
 
@@ -222,6 +230,12 @@ public class AndroidWebView extends WebView {
                     // Take over
                     Log.d("Intercept", url + " (took over)");
                     WebResourceResponse response = handler.handle(interceptor);
+
+                    // If cannot handle locally
+                    if (response == null) {
+                        return super.shouldInterceptRequest(view, url);
+                    }
+
                     HashMap<String, String> extraHeaders = new HashMap<>();
                     extraHeaders.put("Referer", url);
                     extraHeaders.put("X-Intercept-Take-Over", "1");
