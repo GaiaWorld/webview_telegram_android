@@ -1,16 +1,16 @@
 {
   "buildFiles": [
-    "B:\\AndroidWorkSpace\\CompanyProject\\webview_telegram_android\\argon2jni\\CMakeLists.txt"
+    "D:\\momo\\work\\browser\\webview_telegram_android\\argon2jni\\CMakeLists.txt"
   ],
   "cleanCommands": [
-    "B:\\AndroidSDK\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build B:\\AndroidWorkSpace\\CompanyProject\\webview_telegram_android\\argon2jni\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target clean"
+    "D:\\Android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\momo\\work\\browser\\webview_telegram_android\\argon2jni\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target clean"
   ],
   "libraries": {
     "argon2jni-Release-armeabi-v7a": {
       "artifactName": "argon2jni",
-      "buildCommand": "B:\\AndroidSDK\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build B:\\AndroidWorkSpace\\CompanyProject\\webview_telegram_android\\argon2jni\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target argon2jni",
+      "buildCommand": "D:\\Android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\momo\\work\\browser\\webview_telegram_android\\argon2jni\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target argon2jni",
       "abi": "armeabi-v7a",
-      "output": "B:\\AndroidWorkSpace\\CompanyProject\\webview_telegram_android\\argon2jni\\build\\intermediates\\cmake\\release\\obj\\armeabi-v7a\\libargon2jni.so"
+      "output": "D:\\momo\\work\\browser\\webview_telegram_android\\argon2jni\\build\\intermediates\\cmake\\release\\obj\\armeabi-v7a\\libargon2jni.so"
     }
   }
 }

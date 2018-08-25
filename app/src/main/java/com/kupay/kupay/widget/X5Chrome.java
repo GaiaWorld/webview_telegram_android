@@ -10,25 +10,20 @@ import android.net.Uri;
 import android.os.Handler;
 import android.os.Message;
 import android.util.AttributeSet;
-import android.util.Log;
-import android.webkit.WebResourceResponse;
 import android.widget.LinearLayout;
 
 import com.kupay.kupay.R;
 import com.kupay.kupay.callback.WebViewLoadProgressCallback;
 import com.kupay.kupay.common.js.JSBridge;
 import com.kupay.kupay.common.js.JSEnv;
-import com.kupay.kupay.interceptor.InterceptorHandler;
 import com.kupay.kupay.util.Logger;
 import com.tencent.smtt.export.external.interfaces.JsResult;
-import com.tencent.smtt.export.external.interfaces.WebResourceRequest;
 import com.tencent.smtt.sdk.WebChromeClient;
 import com.tencent.smtt.sdk.WebSettings;
 import com.tencent.smtt.sdk.WebView;
 import com.tencent.smtt.sdk.WebViewClient;
 
 import java.lang.ref.WeakReference;
-import java.net.URLDecoder;
 import java.util.HashMap;
 import java.util.Timer;
 import java.util.TimerTask;

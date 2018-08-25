@@ -8,13 +8,11 @@ import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Handler;
 import android.os.Message;
-import android.support.annotation.Nullable;
 import android.support.v7.app.AlertDialog;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.webkit.JsResult;
 import android.webkit.WebChromeClient;
-import android.webkit.WebResourceRequest;
 import android.webkit.WebResourceResponse;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
@@ -25,8 +23,8 @@ import com.kupay.kupay.R;
 import com.kupay.kupay.callback.WebViewLoadProgressCallback;
 import com.kupay.kupay.common.js.JSBridge;
 import com.kupay.kupay.common.js.JSEnv;
-import com.kupay.kupay.interceptor.Interceptor;
-import com.kupay.kupay.interceptor.InterceptorHandler;
+import com.kupay.kupay.intercepter.Interceptor;
+import com.kupay.kupay.intercepter.InterceptorHandler;
 import com.kupay.kupay.util.Logger;
 
 import java.lang.ref.WeakReference;
@@ -151,8 +149,6 @@ public class AndroidWebView extends WebView {
                 }
             });
             this.setWebViewClient(new WebViewClient() {
-                Interceptor interceptor = new Interceptor();
-
                 @Override
                 public void onPageStarted(WebView view, String url, Bitmap favicon) {
                     super.onPageStarted(view, url, favicon);

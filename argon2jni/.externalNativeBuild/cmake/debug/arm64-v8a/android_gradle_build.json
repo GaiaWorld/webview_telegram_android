@@ -2,12 +2,12 @@
 {
 	"buildFiles" : 
 	[
-		"B:/AndroidWorkSpace/CompanyProject/webview_telegram_android/argon2jni/CMakeLists.txt"
+		"D:/momo/work/browser/webview_telegram_android/argon2jni/CMakeLists.txt"
 	],
 	"cFileExtensions" : [ "c" ],
 	"cleanCommands" : 
 	[
-		"B:\\AndroidSDK\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build B:\\AndroidWorkSpace\\CompanyProject\\webview_telegram_android\\argon2jni\\.externalNativeBuild\\cmake\\debug\\arm64-v8a --target clean"
+		"D:\\Android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\momo\\work\\browser\\webview_telegram_android\\argon2jni\\.externalNativeBuild\\cmake\\debug\\arm64-v8a --target clean"
 	],
 	"libraries" : 
 	{
@@ -15,63 +15,63 @@
 		{
 			"abi" : "arm64-v8a",
 			"artifactName" : "argon2jni",
-			"buildCommand" : "B:\\AndroidSDK\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build B:\\AndroidWorkSpace\\CompanyProject\\webview_telegram_android\\argon2jni\\.externalNativeBuild\\cmake\\debug\\arm64-v8a --target argon2jni",
+			"buildCommand" : "D:\\Android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\momo\\work\\browser\\webview_telegram_android\\argon2jni\\.externalNativeBuild\\cmake\\debug\\arm64-v8a --target argon2jni",
 			"buildType" : "debug",
 			"files" : 
 			[
 				
 				{
-					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=B:/AndroidSDK/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=B:/AndroidSDK/sdk/ndk-bundle/sysroot -DA2_VISCTL=1 -Dargon2jni_EXPORTS -I..\\..\\..\\..\\src\\main\\c\\phc-winner-argon2\\include  -isystem B:/AndroidSDK/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "B:/AndroidWorkSpace/CompanyProject/webview_telegram_android/argon2jni/src/main/c/argon2jni.c",
-					"workingDirectory" : "B:/AndroidWorkSpace/CompanyProject/webview_telegram_android/argon2jni/.externalNativeBuild/cmake/debug/arm64-v8a"
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=D:/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/sysroot -DA2_VISCTL=1 -Dargon2jni_EXPORTS -I..\\..\\..\\..\\src\\main\\c\\phc-winner-argon2\\include  -isystem D:/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "D:/momo/work/browser/webview_telegram_android/argon2jni/src/main/c/argon2jni.c",
+					"workingDirectory" : "D:/momo/work/browser/webview_telegram_android/argon2jni/.externalNativeBuild/cmake/debug/arm64-v8a"
 				},
 				
 				{
-					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=B:/AndroidSDK/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=B:/AndroidSDK/sdk/ndk-bundle/sysroot -DA2_VISCTL=1 -Dargon2jni_EXPORTS -I..\\..\\..\\..\\src\\main\\c\\phc-winner-argon2\\include  -isystem B:/AndroidSDK/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "B:/AndroidWorkSpace/CompanyProject/webview_telegram_android/argon2jni/src/main/c/phc-winner-argon2/src/argon2.c",
-					"workingDirectory" : "B:/AndroidWorkSpace/CompanyProject/webview_telegram_android/argon2jni/.externalNativeBuild/cmake/debug/arm64-v8a"
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=D:/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/sysroot -DA2_VISCTL=1 -Dargon2jni_EXPORTS -I..\\..\\..\\..\\src\\main\\c\\phc-winner-argon2\\include  -isystem D:/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "D:/momo/work/browser/webview_telegram_android/argon2jni/src/main/c/phc-winner-argon2/src/argon2.c",
+					"workingDirectory" : "D:/momo/work/browser/webview_telegram_android/argon2jni/.externalNativeBuild/cmake/debug/arm64-v8a"
 				},
 				
 				{
-					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=B:/AndroidSDK/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=B:/AndroidSDK/sdk/ndk-bundle/sysroot -DA2_VISCTL=1 -Dargon2jni_EXPORTS -I..\\..\\..\\..\\src\\main\\c\\phc-winner-argon2\\include  -isystem B:/AndroidSDK/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "B:/AndroidWorkSpace/CompanyProject/webview_telegram_android/argon2jni/src/main/c/phc-winner-argon2/src/core.c",
-					"workingDirectory" : "B:/AndroidWorkSpace/CompanyProject/webview_telegram_android/argon2jni/.externalNativeBuild/cmake/debug/arm64-v8a"
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=D:/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/sysroot -DA2_VISCTL=1 -Dargon2jni_EXPORTS -I..\\..\\..\\..\\src\\main\\c\\phc-winner-argon2\\include  -isystem D:/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "D:/momo/work/browser/webview_telegram_android/argon2jni/src/main/c/phc-winner-argon2/src/core.c",
+					"workingDirectory" : "D:/momo/work/browser/webview_telegram_android/argon2jni/.externalNativeBuild/cmake/debug/arm64-v8a"
 				},
 				
 				{
-					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=B:/AndroidSDK/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=B:/AndroidSDK/sdk/ndk-bundle/sysroot -DA2_VISCTL=1 -Dargon2jni_EXPORTS -I..\\..\\..\\..\\src\\main\\c\\phc-winner-argon2\\include  -isystem B:/AndroidSDK/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "B:/AndroidWorkSpace/CompanyProject/webview_telegram_android/argon2jni/src/main/c/phc-winner-argon2/src/blake2/blake2b.c",
-					"workingDirectory" : "B:/AndroidWorkSpace/CompanyProject/webview_telegram_android/argon2jni/.externalNativeBuild/cmake/debug/arm64-v8a"
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=D:/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/sysroot -DA2_VISCTL=1 -Dargon2jni_EXPORTS -I..\\..\\..\\..\\src\\main\\c\\phc-winner-argon2\\include  -isystem D:/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "D:/momo/work/browser/webview_telegram_android/argon2jni/src/main/c/phc-winner-argon2/src/blake2/blake2b.c",
+					"workingDirectory" : "D:/momo/work/browser/webview_telegram_android/argon2jni/.externalNativeBuild/cmake/debug/arm64-v8a"
 				},
 				
 				{
-					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=B:/AndroidSDK/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=B:/AndroidSDK/sdk/ndk-bundle/sysroot -DA2_VISCTL=1 -Dargon2jni_EXPORTS -I..\\..\\..\\..\\src\\main\\c\\phc-winner-argon2\\include  -isystem B:/AndroidSDK/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "B:/AndroidWorkSpace/CompanyProject/webview_telegram_android/argon2jni/src/main/c/phc-winner-argon2/src/thread.c",
-					"workingDirectory" : "B:/AndroidWorkSpace/CompanyProject/webview_telegram_android/argon2jni/.externalNativeBuild/cmake/debug/arm64-v8a"
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=D:/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/sysroot -DA2_VISCTL=1 -Dargon2jni_EXPORTS -I..\\..\\..\\..\\src\\main\\c\\phc-winner-argon2\\include  -isystem D:/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "D:/momo/work/browser/webview_telegram_android/argon2jni/src/main/c/phc-winner-argon2/src/thread.c",
+					"workingDirectory" : "D:/momo/work/browser/webview_telegram_android/argon2jni/.externalNativeBuild/cmake/debug/arm64-v8a"
 				},
 				
 				{
-					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=B:/AndroidSDK/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=B:/AndroidSDK/sdk/ndk-bundle/sysroot -DA2_VISCTL=1 -Dargon2jni_EXPORTS -I..\\..\\..\\..\\src\\main\\c\\phc-winner-argon2\\include  -isystem B:/AndroidSDK/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "B:/AndroidWorkSpace/CompanyProject/webview_telegram_android/argon2jni/src/main/c/phc-winner-argon2/src/encoding.c",
-					"workingDirectory" : "B:/AndroidWorkSpace/CompanyProject/webview_telegram_android/argon2jni/.externalNativeBuild/cmake/debug/arm64-v8a"
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=D:/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/sysroot -DA2_VISCTL=1 -Dargon2jni_EXPORTS -I..\\..\\..\\..\\src\\main\\c\\phc-winner-argon2\\include  -isystem D:/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "D:/momo/work/browser/webview_telegram_android/argon2jni/src/main/c/phc-winner-argon2/src/encoding.c",
+					"workingDirectory" : "D:/momo/work/browser/webview_telegram_android/argon2jni/.externalNativeBuild/cmake/debug/arm64-v8a"
 				},
 				
 				{
-					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=B:/AndroidSDK/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=B:/AndroidSDK/sdk/ndk-bundle/sysroot -DA2_VISCTL=1 -Dargon2jni_EXPORTS -I..\\..\\..\\..\\src\\main\\c\\phc-winner-argon2\\include  -isystem B:/AndroidSDK/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC      -c ",
-					"src" : "B:/AndroidWorkSpace/CompanyProject/webview_telegram_android/argon2jni/src/main/c/phc-winner-argon2/src/ref.c",
-					"workingDirectory" : "B:/AndroidWorkSpace/CompanyProject/webview_telegram_android/argon2jni/.externalNativeBuild/cmake/debug/arm64-v8a"
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=D:/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/sysroot -DA2_VISCTL=1 -Dargon2jni_EXPORTS -I..\\..\\..\\..\\src\\main\\c\\phc-winner-argon2\\include  -isystem D:/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC -fvisibility=hidden -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "D:/momo/work/browser/webview_telegram_android/argon2jni/src/main/c/phc-winner-argon2/src/ref.c",
+					"workingDirectory" : "D:/momo/work/browser/webview_telegram_android/argon2jni/.externalNativeBuild/cmake/debug/arm64-v8a"
 				}
 			],
-			"output" : "B:/AndroidWorkSpace/CompanyProject/webview_telegram_android/argon2jni/build/intermediates/cmake/debug/obj/arm64-v8a/libargon2jni.so",
-			"toolchain" : "892426827"
+			"output" : "D:/momo/work/browser/webview_telegram_android/argon2jni/build/intermediates/cmake/debug/obj/arm64-v8a/libargon2jni.so",
+			"toolchain" : "423535169"
 		}
 	},
 	"toolchains" : 
 	{
-		"892426827" : 
+		"423535169" : 
 		{
-			"cCompilerExecutable" : "B:/AndroidSDK/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
-			"cppCompilerExecutable" : "B:/AndroidSDK/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+			"cCompilerExecutable" : "D:/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "D:/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
 		}
 	}
 }
