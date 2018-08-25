@@ -1,4 +1,4 @@
-package com.kupay.kupay.interceptor;
+package com.kupay.kupay.intercepter;
 
 import android.webkit.WebResourceResponse;
 

@@ -1,4 +1,4 @@
-package com.kupay.kupay.interceptor;
+package com.kupay.kupay.intercepter;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -43,7 +43,7 @@ public class Interceptor {
 
         public boolean forceFetchFromLocal = false;
 
-        /*
+        /*e
             Specified server addresses
          */
         public List<String> serverAddresses = new ArrayList<>();
@@ -146,7 +146,7 @@ public class Interceptor {
      * @return InterceptorHandler if intercepted, otherwise null
      */
     public InterceptorHandler GetInterceptHandle(String url) {
-        Pattern pattern = Pattern.compile("(http(s?))://([\\w\\d-_\\.]+)/\\$(\\w+)/(.*)$");
+        Pattern pattern = Pattern.compile("(http(s?))://([\\w\\d-_\\.]+:?\\d+?)/\\$(\\w+)/(.*)$");
         Matcher matcher = pattern.matcher(url);
 
         if (!matcher.find()) {
@@ -154,7 +154,7 @@ public class Interceptor {
             // means it is a normal request
 
             // get protocol, server address, uri
-            pattern = Pattern.compile("(http(s?))://([\\w\\d-_\\.]+)/(.*)$");
+            pattern = Pattern.compile("(http(s?))://([\\w\\d-_\\.]+:?\\d+?)/(.*)$");
             matcher = pattern.matcher(url);
 
             if (!matcher.find())
@@ -297,7 +297,8 @@ public class Interceptor {
     public class PendingUpdateFileHandler implements InterceptorHandler {
         public WebResourceResponse handle(Interceptor interceptor) {
             status.serverAddresses.clear();
-            status.serverAddresses.add("192.168.33.122");
+            status.serverAddresses.add(serverAddress);
+
             String result = "true";
             try {
                 String uri = getURI();
