@@ -16,8 +16,12 @@ import com.kupay.kupay.R;
 import com.kupay.kupay.callback.WebViewLoadProgressCallback;
 import com.kupay.kupay.common.js.JSBridge;
 import com.kupay.kupay.common.js.JSEnv;
+import com.kupay.kupay.intercepter.Interceptor;
+import com.kupay.kupay.intercepter.InterceptorHandler;
 import com.kupay.kupay.util.Logger;
 import com.tencent.smtt.export.external.interfaces.JsResult;
+import com.tencent.smtt.export.external.interfaces.WebResourceRequest;
+import com.tencent.smtt.export.external.interfaces.WebResourceResponse;
 import com.tencent.smtt.sdk.WebChromeClient;
 import com.tencent.smtt.sdk.WebSettings;
 import com.tencent.smtt.sdk.WebView;
@@ -189,34 +193,31 @@ public class X5Chrome extends WebView {
                     return true;
                 }
 
-                /*@Override
-                public WebResourceRequest shouldInterceptRequest(WebView view, String url) {
-                    try {
-                        url = URLDecoder.decode(url, "utf-8");
-                    }
-                    catch (Exception e) {
-                        e.printStackTrace();
-                    }
+                @Override
+                public WebResourceResponse shouldInterceptRequest(WebView view, WebResourceRequest request) {
+                    Interceptor interceptor = new Interceptor();
+                    Uri uri = request.getUrl();
+                    interceptor.setWebview(view);
 
-                    InterceptorHandler handler = interceptor.GetInterceptHandle(url);
-
-                    // Do not take over
+                    InterceptorHandler handler = interceptor.GetInterceptHandle(uri);
                     if (handler == null) {
-                        Log.d("Intercept", url + " (pass)");
-                        return super.shouldInterceptRequest(view, url);
+                        return super.shouldInterceptRequest(view, request);
                     }
 
-                    // Take over
-                    Log.d("Intercept", url + " (took over)");
-                    WebResourceResponse response = handler.handle(interceptor);
-                    HashMap<String, String> extraHeaders = new HashMap<>();
-                    extraHeaders.put("Referer", url);
-                    extraHeaders.put("X-Intercept-Take-Over", "1");
-                    response.setResponseHeaders(extraHeaders);
+                    WebResourceResponse response = (WebResourceResponse)handler.handle(interceptor);
+                    if (response == null) {
+                        return super.shouldInterceptRequest(view, request);
+                    }
 
+                    HashMap<String, String> extraHeaders = new HashMap<>();
+                    extraHeaders.put("Referer", uri.toString());
+                    // 设置一个本地加载标签
+                    extraHeaders.put("X-From-Mobile", "1");
+                    response.setResponseHeaders(extraHeaders);
                     return response;
-                }*/
+                }
             });
+
             String url = ctx.getResources().getString(R.string.init_url);
             // 需要加上referer，否则有些服务器会拒绝加载页面
             HashMap<String, String> extraHeaders = new HashMap<>();
