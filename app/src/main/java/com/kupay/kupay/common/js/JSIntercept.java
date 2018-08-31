@@ -2,6 +2,7 @@ package com.kupay.kupay.common.js;
 
 import android.content.Context;
 import android.util.Base64;
+import android.util.Log;
 import android.webkit.JavascriptInterface;
 import com.kupay.kupay.base.BaseJSModule;
 
@@ -23,6 +24,9 @@ public class JSIntercept {
         try {
             Context context = (Context)JSEnv.getEnv(JSEnv.CONTEXT);
             String fullPath = "/data/data/" + context.getPackageName() + "/" + path;
+
+            Log.d("Intercept", "JSIntercept.saveFile: " + fullPath);
+
             File f = new File(fullPath);
             if (!f.exists()) {
                 new File(fullPath.substring(0, fullPath.lastIndexOf('/'))).mkdirs();
@@ -32,6 +36,7 @@ public class JSIntercept {
             byte[] data = Base64.decode(base64Str, Base64.NO_WRAP);
             stream.write(data);
             stream.close();
+
         } catch (Exception e) {
             e.printStackTrace();
         }

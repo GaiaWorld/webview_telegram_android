@@ -2,6 +2,7 @@ package com.kupay.kupay.intercepter;
 
 import android.content.Context;
 import android.net.Uri;
+import android.util.Log;
 import android.webkit.MimeTypeMap;
 
 import com.kupay.kupay.app.YNApplication;
@@ -19,7 +20,7 @@ public class Interceptor {
     Object webview;
 
     static String[] domains = null;
-    static String[] bootDirs = null;
+    static String bootDir = null;
     static boolean fetchFromMobile = true;
 
     public Interceptor() {
@@ -96,11 +97,7 @@ public class Interceptor {
                     domains[i] = domainsArray.getString(i);
                 }
 
-                JSONArray bootDirStr = new JSONArray(interceptor.uri.getQueryParameter("bootdirs"));
-                bootDirs = new String[bootDirStr.length()];
-                for (int i = 0; i < bootDirStr.length(); i++) {
-                    bootDirs[i] = bootDirStr.getString(i);
-                }
+                bootDir = interceptor.uri.getQueryParameter("bootdir");
             } catch (Exception e) {
                 e.printStackTrace();
             }
@@ -134,6 +131,7 @@ public class Interceptor {
 
             String fullPath = "/data/data/" + context.getPackageName() + path;
 
+            Log.d("Intercept", "FetchFromLocalHandler--boot: " + fullPath);
             File f = new File(fullPath);
             if(f.exists() && !f.isDirectory()) {
                 try {
@@ -148,7 +146,7 @@ public class Interceptor {
                     }
                     return response;
                 } catch (Exception e) {
-
+                    Log.d("Intercept", "FetchFromLocalHandler--boot--catch: " + fullPath);
                 }
             }
 
@@ -159,6 +157,8 @@ public class Interceptor {
                 if (path.startsWith("/")) {
                     path = path.substring(1);
                 }
+
+                Log.d("Intercept", "FetchFromLocalHandler--assets: " + path);
                 InputStream stream = YNApplication.getAppCtx().getAssets().open(path);
                 String mimeType = MimeTypeMap.getSingleton().getMimeTypeFromExtension(MimeTypeMap.getFileExtensionFromUrl(interceptor.uri.toString()));
 
@@ -171,6 +171,7 @@ public class Interceptor {
                 return response;
 
             } catch (Exception e) {
+                Log.d("Intercept", "FetchFromLocalHandler--assets--catch: " + path);
                 e.printStackTrace();
             }
             return null;
