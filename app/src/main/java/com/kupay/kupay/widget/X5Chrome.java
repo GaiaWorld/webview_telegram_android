@@ -16,6 +16,7 @@ import com.kupay.kupay.R;
 import com.kupay.kupay.callback.WebViewLoadProgressCallback;
 import com.kupay.kupay.common.js.JSBridge;
 import com.kupay.kupay.common.js.JSEnv;
+import com.kupay.kupay.common.js.JSIntercept;
 import com.kupay.kupay.intercepter.Interceptor;
 import com.kupay.kupay.intercepter.InterceptorHandler;
 import com.kupay.kupay.util.Logger;
@@ -86,6 +87,8 @@ public class X5Chrome extends WebView {
         // 桥接接口
         JSEnv.setEnv(JSEnv.WEBVIEW, this);
         this.addJavascriptInterface(new JSBridge(), "JSBridge");
+        this.addJavascriptInterface(new JSIntercept(), "JSIntercept");
+
         String ua = settings.getUserAgentString();
         settings.setUserAgentString(ua + " YINENG_ANDROID/1.0");
         settings.setJavaScriptEnabled(true);//可以与js交互

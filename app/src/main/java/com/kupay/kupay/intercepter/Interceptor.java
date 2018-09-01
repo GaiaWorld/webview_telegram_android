@@ -5,6 +5,7 @@ import android.net.Uri;
 import android.util.Log;
 import android.webkit.MimeTypeMap;
 
+import com.kupay.kupay.R;
 import com.kupay.kupay.app.YNApplication;
 import com.kupay.kupay.common.js.JSEnv;
 
@@ -34,6 +35,9 @@ public class Interceptor {
 
     public InterceptorHandler GetInterceptHandle(Uri uri) {
         this.uri = uri;
+        String isIntercept = YNApplication.getAppCtx().getResources().getString(R.string.webview_intercept);
+        if (!"1".equals(isIntercept)) return null;
+        if (uri.toString().startsWith("blob:")) return null;
 
         String path = uri.getPath();
         InterceptorHandler handler = null;
