@@ -13,31 +13,35 @@ public class ProxyInformation {
         return ip;
     }
 
-    public void setIp(String ip) {
+    public ProxyInformation setIp(String ip) {
         this.ip = ip;
+        return this;
     }
 
     public int getPort() {
         return port;
     }
 
-    public void setPort(int port) {
+    public ProxyInformation setPort(int port) {
         this.port = port;
+        return this;
     }
 
     public String getUserName() {
         return userName;
     }
 
-    public void setUserName(String userName) {
+    public ProxyInformation setUserName(String userName) {
         this.userName = userName;
+        return this;
     }
 
     public String getPassword() {
         return password;
     }
 
-    public void setPassword(String password) {
+    public ProxyInformation setPassword(String password) {
         this.password = password;
+        return this;
     }
 }

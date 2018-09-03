@@ -1,0 +1,797 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:2:1-482:12
+INJECTED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:2:1-482:12
+INJECTED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:2:1-482:12
+	package
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:3:5-37
+		INJECTED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:4:5-35
+supports-screens
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:6:5-12:40
+	android:largeScreens
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:8:9-36
+	android:smallScreens
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:11:9-36
+	android:normalScreens
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:9:9-37
+	android:xlargeScreens
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:12:9-37
+	android:resizeable
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:10:9-34
+	android:anyDensity
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:7:9-34
+uses-feature#0x00020000
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:14:5-16:36
+	android:glEsVersion
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:15:9-41
+	android:required
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:16:9-33
+uses-feature#android.hardware.telephony
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:17:5-19:36
+	android:required
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:19:9-33
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:18:9-50
+uses-feature#android.hardware.wifi
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:20:5-22:36
+	android:required
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:22:9-33
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:21:9-45
+uses-feature#android.hardware.screen.PORTRAIT
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:23:5-25:36
+	android:required
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:25:9-33
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:24:9-56
+uses-feature#android.hardware.microphone
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:26:5-28:36
+	android:required
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:28:9-33
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:27:9-51
+uses-feature#android.hardware.camera
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:29:5-31:36
+	android:required
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:31:9-33
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:30:9-47
+uses-feature#android.hardware.camera2
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:32:5-34:36
+	android:required
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:34:9-33
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:33:9-48
+uses-permission#android.permission.INTERNET
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:36:5-67
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:36:22-64
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:37:5-71
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:37:22-68
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:38:5-80
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:38:22-77
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:39:5-79
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:39:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:40:5-76
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:40:22-73
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:41:5-70
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:41:22-67
+uses-permission#android.permission.WAKE_LOCK
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:42:5-68
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:42:22-65
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:43:5-81
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:43:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:44:5-80
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:44:22-77
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:45:5-71
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:45:22-68
+uses-permission#android.permission.READ_CONTACTS
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:46:5-72
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:46:22-69
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:47:5-73
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:47:22-70
+uses-permission#android.permission.MANAGE_ACCOUNTS
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:48:5-74
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:48:22-71
+uses-permission#android.permission.READ_PROFILE
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:49:5-71
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:49:22-68
+uses-permission#android.permission.WRITE_SYNC_SETTINGS
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:50:5-78
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:50:22-75
+uses-permission#android.permission.READ_SYNC_SETTINGS
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:51:5-77
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:51:22-74
+uses-permission#android.permission.AUTHENTICATE_ACCOUNTS
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:52:5-80
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:52:22-77
+uses-permission#android.permission.VIBRATE
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:53:5-66
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:53:22-63
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:54:5-78
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:54:22-75
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:55:5-75
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:55:22-72
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:56:5-81
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:56:22-78
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:57:5-74
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:57:22-71
+uses-permission#android.permission.INSTALL_SHORTCUT
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:58:5-75
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:58:22-72
+uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:59:5-88
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:59:22-85
+uses-permission#com.android.launcher.permission.UNINSTALL_SHORTCUT
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:60:5-90
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:60:22-87
+uses-permission#android.permission.CAMERA
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:61:5-65
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:61:22-62
+uses-permission#android.permission.BLUETOOTH
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:62:5-68
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:62:22-65
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:64:5-86
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:64:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:65:5-87
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:65:22-84
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:66:5-81
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:66:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:67:5-83
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:67:22-80
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:68:5-88
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:68:22-85
+uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:69:5-92
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:69:22-89
+uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:70:5-84
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:70:22-81
+uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:71:5-83
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:71:22-80
+uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:72:5-91
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:72:22-88
+uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:73:5-92
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:73:22-89
+uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:74:5-93
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:74:22-90
+uses-permission#android.permission.READ_APP_BADGE
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:75:5-73
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:75:22-70
+uses-permission#com.oppo.launcher.permission.READ_SETTINGS
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:76:5-82
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:76:22-79
+uses-permission#com.oppo.launcher.permission.WRITE_SETTINGS
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:77:5-83
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:77:22-80
+application
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:79:5-480:19
+	android:label
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:82:9-40
+	android:hardwareAccelerated
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:81:9-68
+	android:manageSpaceActivity
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:84:9-74
+	android:largeHeap
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:83:9-33
+	android:allowBackup
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:80:9-36
+activity#org.telegram.ui.LaunchActivity
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:95:9-191:20
+	android:launchMode
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:99:13-44
+	android:hardwareAccelerated
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:98:13-72
+	android:windowSoftInputMode
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:100:13-52
+	android:configChanges
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:97:13-83
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:96:13-58
+intent-filter#action:name:android.intent.action.SEND+category:name:android.intent.category.DEFAULT+data:mimeType:image/*
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:107:13-111:29
+action#android.intent.action.SEND
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:108:17-69
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:108:25-66
+category#android.intent.category.DEFAULT
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:109:17-76
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:109:27-73
+data
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:110:17-52
+	android:host
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:153:21-47
+	android:scheme
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:143:23-44
+	android:mimeType
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:110:23-49
+intent-filter#action:name:android.intent.action.SEND+category:name:android.intent.category.DEFAULT+data:mimeType:video/*
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:112:13-116:29
+intent-filter#action:name:android.intent.action.SEND_MULTIPLE+category:name:android.intent.category.DEFAULT+data:mimeType:image/*
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:117:13-121:29
+action#android.intent.action.SEND_MULTIPLE
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:118:17-78
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:118:25-75
+intent-filter#action:name:android.intent.action.SEND+category:name:android.intent.category.DEFAULT+data:mimeType:text/plain
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:122:13-126:29
+intent-filter#action:name:android.intent.action.SEND+category:name:android.intent.category.DEFAULT+data:mimeType:*/*
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:127:13-131:29
+intent-filter#action:name:android.intent.action.SEND_MULTIPLE+category:name:android.intent.category.DEFAULT+data:mimeType:*/*
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:132:13-136:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:mimeType:vnd.android.cursor.item/vnd.org.telegram.messenger.android.profile+data:scheme:http
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:137:13-145:29
+action#android.intent.action.VIEW
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:138:17-69
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:138:25-66
+category#android.intent.category.BROWSABLE
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:141:17-78
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:141:27-75
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:t.me+data:host:t.me+data:host:telegram.dog+data:host:telegram.dog+data:host:telegram.me+data:host:telegram.me+data:host:telesco.pe+data:host:telesco.pe+data:scheme:http+data:scheme:http+data:scheme:http+data:scheme:http+data:scheme:https+data:scheme:https+data:scheme:https+data:scheme:https
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:146:13-176:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:tg
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:177:13-186:29
+	android:priority
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:179:17-37
+	android:icon
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:178:17-53
+meta-data#android.service.chooser.chooser_target_service
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:188:13-190:59
+	android:value
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:190:17-56
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:189:17-78
+activity#org.telegram.ui.ShareActivity
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:192:9-211:20
+	android:stateNotNeeded
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:197:13-42
+	android:excludeFromRecents
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:195:13-46
+	android:hardwareAccelerated
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:196:13-72
+	android:windowSoftInputMode
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:199:13-52
+	android:configChanges
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:194:13-83
+	android:theme
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:198:13-63
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:193:13-57
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:tgb
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:201:13-210:29
+	android:priority
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:203:17-37
+	android:icon
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:202:17-53
+activity#org.telegram.ui.ManageSpaceActivity
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:212:9-217:55
+	android:launchMode
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:216:13-44
+	android:hardwareAccelerated
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:215:13-72
+	android:windowSoftInputMode
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:217:13-52
+	android:configChanges
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:214:13-83
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:213:13-63
+activity#org.telegram.ui.IntroActivity
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:218:9-221:47
+	android:launchMode
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:221:13-44
+	android:configChanges
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:220:13-83
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:219:13-57
+activity#org.telegram.messenger.OpenChatReceiver
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:222:9-225:39
+	android:exported
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:225:13-36
+	android:configChanges
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:224:13-83
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:223:13-67
+activity#org.telegram.ui.PopupNotificationActivity
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:226:9-234:70
+	android:excludeFromRecents
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:229:13-46
+	android:launchMode
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:230:13-44
+	android:windowSoftInputMode
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:234:13-67
+	android:resizeableActivity
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:231:13-47
+	android:configChanges
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:228:13-133
+	android:theme
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:233:13-69
+	android:taskAffinity
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:232:13-36
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:227:13-69
+activity#org.telegram.ui.VoIPActivity
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:236:9-240:60
+	android:excludeFromRecents
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:239:13-46
+	android:configChanges
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:238:13-83
+	android:taskAffinity
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:240:13-57
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:237:13-56
+activity#org.telegram.ui.VoIPPermissionActivity
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:241:9-246:66
+	android:excludeFromRecents
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:244:13-46
+	android:configChanges
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:243:13-83
+	android:theme
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:246:13-63
+	android:taskAffinity
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:245:13-57
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:242:13-66
+activity#org.telegram.ui.VoIPFeedbackActivity
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:248:9-253:76
+	android:excludeFromRecents
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:251:13-46
+	android:configChanges
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:250:13-83
+	android:theme
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:253:13-73
+	android:taskAffinity
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:252:13-66
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:249:13-64
+receiver#org.telegram.messenger.AutoMessageHeardReceiver
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:256:9-262:20
+	android:exported
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:258:13-37
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:257:13-53
+intent-filter#action:name:org.telegram.messenger.ACTION_MESSAGE_HEARD
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:259:13-261:29
+action#org.telegram.messenger.ACTION_MESSAGE_HEARD
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:260:17-86
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:260:25-83
+receiver#org.telegram.messenger.AutoMessageReplyReceiver
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:264:9-270:20
+	android:exported
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:266:13-37
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:265:13-53
+intent-filter#action:name:org.telegram.messenger.ACTION_MESSAGE_REPLY
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:267:13-269:29
+action#org.telegram.messenger.ACTION_MESSAGE_REPLY
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:268:17-86
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:268:25-83
+receiver#org.telegram.messenger.CallReceiver
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:272:9-276:20
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:272:19-47
+intent-filter#action:name:android.intent.action.PHONE_STATE
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:273:13-275:29
+action#android.intent.action.PHONE_STATE
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:274:17-76
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:274:25-73
+receiver#org.telegram.messenger.SmsListener
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:278:9-282:20
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:278:19-46
+intent-filter#action:name:android.provider.Telephony.SMS_RECEIVED
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:279:13-281:29
+action#android.provider.Telephony.SMS_RECEIVED
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:280:17-82
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:280:25-79
+service#org.telegram.messenger.AuthenticatorService
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:284:9-293:19
+	android:exported
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:286:13-36
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:285:13-49
+intent-filter#action:name:android.accounts.AccountAuthenticator
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:287:13-289:29
+action#android.accounts.AccountAuthenticator
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:288:17-80
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:288:25-77
+meta-data#android.accounts.AccountAuthenticator
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:290:13-292:48
+	android:resource
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:292:17-45
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:291:17-69
+service#org.telegram.messenger.ContactsSyncAdapterService
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:295:9-308:19
+	android:exported
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:297:13-36
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:296:13-55
+intent-filter#action:name:android.content.SyncAdapter
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:298:13-300:29
+action#android.content.SyncAdapter
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:299:17-70
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:299:25-67
+meta-data#android.content.SyncAdapter
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:302:13-304:57
+	android:resource
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:304:17-54
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:303:17-59
+meta-data#android.provider.CONTACTS_STRUCTURE
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:305:13-307:52
+	android:resource
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:307:17-49
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:306:17-67
+service#org.telegram.messenger.TgChooserTargetService
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:310:9-317:19
+	android:label
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:312:13-44
+	android:permission
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:313:13-80
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:311:13-73
+intent-filter#action:name:android.service.chooser.ChooserTargetService
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:314:13-316:29
+action#android.service.chooser.ChooserTargetService
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:315:17-87
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:315:25-84
+service#org.telegram.messenger.BringAppForegroundService
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:319:9-321:38
+	android:enabled
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:321:13-35
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:320:13-54
+service#org.telegram.messenger.NotificationsService
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:322:9-324:38
+	android:enabled
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:324:13-35
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:323:13-49
+service#org.telegram.messenger.NotificationRepeat
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:325:9-327:40
+	android:exported
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:327:13-37
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:326:13-47
+service#org.telegram.messenger.ClearCacheService
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:328:9-330:40
+	android:exported
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:330:13-37
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:329:13-46
+service#org.telegram.messenger.VideoEncodingService
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:331:9-333:38
+	android:enabled
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:333:13-35
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:332:13-49
+service#org.telegram.messenger.LocationSharingService
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:334:9-336:38
+	android:enabled
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:336:13-35
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:335:13-51
+service#org.telegram.messenger.voip.VoIPService
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:337:9-339:38
+	android:enabled
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:339:13-35
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:338:13-45
+service#org.telegram.messenger.MusicPlayerService
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:340:9-343:39
+	android:enabled
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:342:13-35
+	android:exported
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:343:13-36
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:341:13-47
+service#org.telegram.messenger.MusicBrowserService
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:344:9-350:19
+	android:exported
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:346:13-36
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:345:13-48
+intent-filter#action:name:android.media.browse.MediaBrowserService
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:347:13-349:29
+action#android.media.browse.MediaBrowserService
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:348:17-83
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:348:25-80
+service#org.telegram.messenger.WearDataLayerListenerService
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:351:9-363:19
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:351:18-62
+intent-filter#action:name:com.google.android.gms.wearable.CAPABILITY_CHANGED+action:name:com.google.android.gms.wearable.CHANNEL_EVENT+action:name:com.google.android.gms.wearable.DATA_CHANGED+action:name:com.google.android.gms.wearable.MESSAGE_RECEIVED+data:host:*+data:scheme:wear
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:352:13-362:29
+action#com.google.android.gms.wearable.DATA_CHANGED
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:354:17-87
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:354:25-84
+action#com.google.android.gms.wearable.MESSAGE_RECEIVED
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:355:17-91
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:355:25-88
+action#com.google.android.gms.wearable.CAPABILITY_CHANGED
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:356:17-93
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:356:25-90
+action#com.google.android.gms.wearable.CHANNEL_EVENT
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:357:17-88
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:357:25-85
+receiver#org.telegram.messenger.MusicPlayerReceiver
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:365:9-375:20
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:365:19-54
+intent-filter#action:name:android.intent.action.MEDIA_BUTTON+action:name:android.media.AUDIO_BECOMING_NOISY+action:name:org.telegram.android.musicplayer.close+action:name:org.telegram.android.musicplayer.next+action:name:org.telegram.android.musicplayer.pause+action:name:org.telegram.android.musicplayer.play+action:name:org.telegram.android.musicplayer.previous
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:366:13-374:29
+action#org.telegram.android.musicplayer.close
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:367:17-81
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:367:25-78
+action#org.telegram.android.musicplayer.pause
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:368:17-81
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:368:25-78
+action#org.telegram.android.musicplayer.next
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:369:17-80
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:369:25-77
+action#org.telegram.android.musicplayer.play
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:370:17-80
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:370:25-77
+action#org.telegram.android.musicplayer.previous
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:371:17-84
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:371:25-81
+action#android.intent.action.MEDIA_BUTTON
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:372:17-77
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:372:25-74
+action#android.media.AUDIO_BECOMING_NOISY
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:373:17-77
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:373:25-74
+receiver#org.telegram.messenger.voip.VoIPMediaButtonReceiver
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:376:9-380:20
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:376:19-63
+intent-filter#action:name:android.intent.action.MEDIA_BUTTON
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:377:13-379:29
+receiver#org.telegram.messenger.AppStartReceiver
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:382:9-389:20
+	android:enabled
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:384:13-35
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:383:13-45
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:org.telegram.start
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:385:13-388:29
+action#org.telegram.start
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:386:17-61
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:386:25-58
+action#android.intent.action.BOOT_COMPLETED
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:387:17-79
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:387:25-76
+receiver#org.telegram.messenger.RefererReceiver
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:391:9-398:20
+	android:exported
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:393:13-36
+	android:permission
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:394:13-69
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:392:13-44
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:395:13-397:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:396:17-79
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:396:25-76
+receiver#org.telegram.messenger.WearReplyReceiver
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:400:9-402:38
+	android:enabled
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:402:13-35
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:401:13-46
+receiver#org.telegram.messenger.StopLiveLocationReceiver
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:404:9-406:38
+	android:enabled
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:406:13-35
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:405:13-53
+receiver#org.telegram.messenger.PopupReplyReceiver
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:408:9-410:38
+	android:enabled
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:410:13-35
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:409:13-47
+receiver#org.telegram.messenger.ShareBroadcastReceiver
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:412:9-414:38
+	android:enabled
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:414:13-35
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:413:13-51
+receiver#org.telegram.messenger.CustomTabsCopyReceiver
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:416:9-418:38
+	android:enabled
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:418:13-35
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:417:13-51
+receiver#org.telegram.messenger.NotificationDismissReceiver
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:420:9-422:40
+	android:exported
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:422:13-37
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:421:13-56
+receiver#org.telegram.messenger.voip.VoIPActionsReceiver
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:424:9-426:40
+	android:exported
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:426:13-37
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:425:13-53
+uses-library#com.sec.android.app.multiwindow
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:438:9-440:40
+	android:required
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:440:13-37
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:439:13-59
+meta-data#com.sec.android.support.multiwindow
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:442:9-444:36
+	android:value
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:444:13-33
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:443:13-63
+meta-data#com.sec.android.multiwindow.DEFAULT_SIZE_W
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:445:9-447:37
+	android:value
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:447:13-34
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:446:13-70
+meta-data#com.sec.android.multiwindow.DEFAULT_SIZE_H
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:448:9-450:37
+	android:value
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:450:13-34
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:449:13-70
+meta-data#com.sec.android.multiwindow.MINIMUM_SIZE_W
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:451:9-453:37
+	android:value
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:453:13-34
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:452:13-70
+meta-data#com.sec.android.multiwindow.MINIMUM_SIZE_H
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:454:9-456:37
+	android:value
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:456:13-34
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:455:13-70
+meta-data#com.google.android.gms.wallet.api.enabled
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:458:9-460:36
+	android:value
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:460:13-33
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:459:13-69
+meta-data#com.google.android.gms.car.notification.SmallIcon
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:462:9-464:54
+	android:resource
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:464:13-51
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:463:13-77
+meta-data#com.google.android.gms.car.application
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:465:9-467:59
+	android:resource
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:467:13-56
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:466:13-66
+meta-data#com.google.android.gms.vision.DEPENDENCIES
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:469:9-471:36
+	android:value
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:471:13-33
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:470:13-70
+meta-data#com.samsung.android.icon_container.has_icon_container
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:473:9-475:36
+	android:value
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:475:13-33
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:474:13-81
+meta-data#android.max_aspect
+ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:476:9-478:35
+	android:value
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:478:13-32
+	android:name
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml:477:13-46
+uses-sdk
+INJECTED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml
+INJECTED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml
+INJECTED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml
+INJECTED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidWorkspace\CompanyPro\webview_telegram_android\telegram\src\main\AndroidManifest.xml

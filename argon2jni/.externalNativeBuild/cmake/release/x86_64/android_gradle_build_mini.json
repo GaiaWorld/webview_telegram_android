@@ -1,16 +1,16 @@
 {
   "buildFiles": [
-    "D:\\momo\\work\\browser\\webview_telegram_android\\argon2jni\\CMakeLists.txt"
+    "D:\\AndroidWorkspace\\CompanyPro\\webview_telegram_android\\argon2jni\\CMakeLists.txt"
   ],
   "cleanCommands": [
-    "D:\\Android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\momo\\work\\browser\\webview_telegram_android\\argon2jni\\.externalNativeBuild\\cmake\\release\\x86_64 --target clean"
+    "C:\\Users\\user\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\AndroidWorkspace\\CompanyPro\\webview_telegram_android\\argon2jni\\.externalNativeBuild\\cmake\\release\\x86_64 --target clean"
   ],
   "libraries": {
     "argon2jni-Release-x86_64": {
       "artifactName": "argon2jni",
-      "buildCommand": "D:\\Android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\momo\\work\\browser\\webview_telegram_android\\argon2jni\\.externalNativeBuild\\cmake\\release\\x86_64 --target argon2jni",
+      "buildCommand": "C:\\Users\\user\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\AndroidWorkspace\\CompanyPro\\webview_telegram_android\\argon2jni\\.externalNativeBuild\\cmake\\release\\x86_64 --target argon2jni",
       "abi": "x86_64",
-      "output": "D:\\momo\\work\\browser\\webview_telegram_android\\argon2jni\\build\\intermediates\\cmake\\release\\obj\\x86_64\\libargon2jni.so"
+      "output": "D:\\AndroidWorkspace\\CompanyPro\\webview_telegram_android\\argon2jni\\build\\intermediates\\cmake\\release\\obj\\x86_64\\libargon2jni.so"
     }
   }
 }

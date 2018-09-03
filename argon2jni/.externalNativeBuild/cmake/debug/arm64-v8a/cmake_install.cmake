@@ -1,4 +1,4 @@
-# Install script for directory: D:/momo/work/browser/webview_telegram_android/argon2jni
+# Install script for directory: D:/AndroidWorkspace/CompanyPro/webview_telegram_android/argon2jni
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/momo/work/browser/webview_telegram_android/argon2jni/.externalNativeBuild/cmake/debug/arm64-v8a/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/AndroidWorkspace/CompanyPro/webview_telegram_android/argon2jni/.externalNativeBuild/cmake/debug/arm64-v8a/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

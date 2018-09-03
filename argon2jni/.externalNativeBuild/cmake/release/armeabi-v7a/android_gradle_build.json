@@ -2,12 +2,12 @@
 {
 	"buildFiles" : 
 	[
-		"D:/momo/work/browser/webview_telegram_android/argon2jni/CMakeLists.txt"
+		"D:/AndroidWorkspace/CompanyPro/webview_telegram_android/argon2jni/CMakeLists.txt"
 	],
 	"cFileExtensions" : [ "c" ],
 	"cleanCommands" : 
 	[
-		"D:\\Android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\momo\\work\\browser\\webview_telegram_android\\argon2jni\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target clean"
+		"C:\\Users\\user\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\AndroidWorkspace\\CompanyPro\\webview_telegram_android\\argon2jni\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target clean"
 	],
 	"libraries" : 
 	{
@@ -15,63 +15,63 @@
 		{
 			"abi" : "armeabi-v7a",
 			"artifactName" : "argon2jni",
-			"buildCommand" : "D:\\Android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\momo\\work\\browser\\webview_telegram_android\\argon2jni\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target argon2jni",
+			"buildCommand" : "C:\\Users\\user\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\AndroidWorkspace\\CompanyPro\\webview_telegram_android\\argon2jni\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target argon2jni",
 			"buildType" : "release",
 			"files" : 
 			[
 				
 				{
-					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/sysroot -DA2_VISCTL=1 -Dargon2jni_EXPORTS -I..\\..\\..\\..\\src\\main\\c\\phc-winner-argon2\\include  -isystem D:/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC -fvisibility=hidden -Os -DNDEBUG  -fPIC      -c ",
-					"src" : "D:/momo/work/browser/webview_telegram_android/argon2jni/src/main/c/argon2jni.c",
-					"workingDirectory" : "D:/momo/work/browser/webview_telegram_android/argon2jni/.externalNativeBuild/cmake/release/armeabi-v7a"
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/user/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/user/AppData/Local/Android/Sdk/ndk-bundle/sysroot -DA2_VISCTL=1 -Dargon2jni_EXPORTS -I..\\..\\..\\..\\src\\main\\c\\phc-winner-argon2\\include  -isystem C:/Users/user/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC -fvisibility=hidden -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "D:/AndroidWorkspace/CompanyPro/webview_telegram_android/argon2jni/src/main/c/argon2jni.c",
+					"workingDirectory" : "D:/AndroidWorkspace/CompanyPro/webview_telegram_android/argon2jni/.externalNativeBuild/cmake/release/armeabi-v7a"
 				},
 				
 				{
-					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/sysroot -DA2_VISCTL=1 -Dargon2jni_EXPORTS -I..\\..\\..\\..\\src\\main\\c\\phc-winner-argon2\\include  -isystem D:/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC -fvisibility=hidden -Os -DNDEBUG  -fPIC      -c ",
-					"src" : "D:/momo/work/browser/webview_telegram_android/argon2jni/src/main/c/phc-winner-argon2/src/argon2.c",
-					"workingDirectory" : "D:/momo/work/browser/webview_telegram_android/argon2jni/.externalNativeBuild/cmake/release/armeabi-v7a"
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/user/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/user/AppData/Local/Android/Sdk/ndk-bundle/sysroot -DA2_VISCTL=1 -Dargon2jni_EXPORTS -I..\\..\\..\\..\\src\\main\\c\\phc-winner-argon2\\include  -isystem C:/Users/user/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC -fvisibility=hidden -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "D:/AndroidWorkspace/CompanyPro/webview_telegram_android/argon2jni/src/main/c/phc-winner-argon2/src/argon2.c",
+					"workingDirectory" : "D:/AndroidWorkspace/CompanyPro/webview_telegram_android/argon2jni/.externalNativeBuild/cmake/release/armeabi-v7a"
 				},
 				
 				{
-					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/sysroot -DA2_VISCTL=1 -Dargon2jni_EXPORTS -I..\\..\\..\\..\\src\\main\\c\\phc-winner-argon2\\include  -isystem D:/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC -fvisibility=hidden -Os -DNDEBUG  -fPIC      -c ",
-					"src" : "D:/momo/work/browser/webview_telegram_android/argon2jni/src/main/c/phc-winner-argon2/src/core.c",
-					"workingDirectory" : "D:/momo/work/browser/webview_telegram_android/argon2jni/.externalNativeBuild/cmake/release/armeabi-v7a"
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/user/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/user/AppData/Local/Android/Sdk/ndk-bundle/sysroot -DA2_VISCTL=1 -Dargon2jni_EXPORTS -I..\\..\\..\\..\\src\\main\\c\\phc-winner-argon2\\include  -isystem C:/Users/user/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC -fvisibility=hidden -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "D:/AndroidWorkspace/CompanyPro/webview_telegram_android/argon2jni/src/main/c/phc-winner-argon2/src/core.c",
+					"workingDirectory" : "D:/AndroidWorkspace/CompanyPro/webview_telegram_android/argon2jni/.externalNativeBuild/cmake/release/armeabi-v7a"
 				},
 				
 				{
-					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/sysroot -DA2_VISCTL=1 -Dargon2jni_EXPORTS -I..\\..\\..\\..\\src\\main\\c\\phc-winner-argon2\\include  -isystem D:/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC -fvisibility=hidden -Os -DNDEBUG  -fPIC      -c ",
-					"src" : "D:/momo/work/browser/webview_telegram_android/argon2jni/src/main/c/phc-winner-argon2/src/blake2/blake2b.c",
-					"workingDirectory" : "D:/momo/work/browser/webview_telegram_android/argon2jni/.externalNativeBuild/cmake/release/armeabi-v7a"
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/user/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/user/AppData/Local/Android/Sdk/ndk-bundle/sysroot -DA2_VISCTL=1 -Dargon2jni_EXPORTS -I..\\..\\..\\..\\src\\main\\c\\phc-winner-argon2\\include  -isystem C:/Users/user/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC -fvisibility=hidden -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "D:/AndroidWorkspace/CompanyPro/webview_telegram_android/argon2jni/src/main/c/phc-winner-argon2/src/blake2/blake2b.c",
+					"workingDirectory" : "D:/AndroidWorkspace/CompanyPro/webview_telegram_android/argon2jni/.externalNativeBuild/cmake/release/armeabi-v7a"
 				},
 				
 				{
-					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/sysroot -DA2_VISCTL=1 -Dargon2jni_EXPORTS -I..\\..\\..\\..\\src\\main\\c\\phc-winner-argon2\\include  -isystem D:/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC -fvisibility=hidden -Os -DNDEBUG  -fPIC      -c ",
-					"src" : "D:/momo/work/browser/webview_telegram_android/argon2jni/src/main/c/phc-winner-argon2/src/thread.c",
-					"workingDirectory" : "D:/momo/work/browser/webview_telegram_android/argon2jni/.externalNativeBuild/cmake/release/armeabi-v7a"
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/user/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/user/AppData/Local/Android/Sdk/ndk-bundle/sysroot -DA2_VISCTL=1 -Dargon2jni_EXPORTS -I..\\..\\..\\..\\src\\main\\c\\phc-winner-argon2\\include  -isystem C:/Users/user/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC -fvisibility=hidden -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "D:/AndroidWorkspace/CompanyPro/webview_telegram_android/argon2jni/src/main/c/phc-winner-argon2/src/thread.c",
+					"workingDirectory" : "D:/AndroidWorkspace/CompanyPro/webview_telegram_android/argon2jni/.externalNativeBuild/cmake/release/armeabi-v7a"
 				},
 				
 				{
-					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/sysroot -DA2_VISCTL=1 -Dargon2jni_EXPORTS -I..\\..\\..\\..\\src\\main\\c\\phc-winner-argon2\\include  -isystem D:/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC -fvisibility=hidden -Os -DNDEBUG  -fPIC      -c ",
-					"src" : "D:/momo/work/browser/webview_telegram_android/argon2jni/src/main/c/phc-winner-argon2/src/encoding.c",
-					"workingDirectory" : "D:/momo/work/browser/webview_telegram_android/argon2jni/.externalNativeBuild/cmake/release/armeabi-v7a"
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/user/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/user/AppData/Local/Android/Sdk/ndk-bundle/sysroot -DA2_VISCTL=1 -Dargon2jni_EXPORTS -I..\\..\\..\\..\\src\\main\\c\\phc-winner-argon2\\include  -isystem C:/Users/user/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC -fvisibility=hidden -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "D:/AndroidWorkspace/CompanyPro/webview_telegram_android/argon2jni/src/main/c/phc-winner-argon2/src/encoding.c",
+					"workingDirectory" : "D:/AndroidWorkspace/CompanyPro/webview_telegram_android/argon2jni/.externalNativeBuild/cmake/release/armeabi-v7a"
 				},
 				
 				{
-					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/sysroot -DA2_VISCTL=1 -Dargon2jni_EXPORTS -I..\\..\\..\\..\\src\\main\\c\\phc-winner-argon2\\include  -isystem D:/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC -fvisibility=hidden -Os -DNDEBUG  -fPIC      -c ",
-					"src" : "D:/momo/work/browser/webview_telegram_android/argon2jni/src/main/c/phc-winner-argon2/src/ref.c",
-					"workingDirectory" : "D:/momo/work/browser/webview_telegram_android/argon2jni/.externalNativeBuild/cmake/release/armeabi-v7a"
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=C:/Users/user/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/user/AppData/Local/Android/Sdk/ndk-bundle/sysroot -DA2_VISCTL=1 -Dargon2jni_EXPORTS -I..\\..\\..\\..\\src\\main\\c\\phc-winner-argon2\\include  -isystem C:/Users/user/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC -fvisibility=hidden -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "D:/AndroidWorkspace/CompanyPro/webview_telegram_android/argon2jni/src/main/c/phc-winner-argon2/src/ref.c",
+					"workingDirectory" : "D:/AndroidWorkspace/CompanyPro/webview_telegram_android/argon2jni/.externalNativeBuild/cmake/release/armeabi-v7a"
 				}
 			],
-			"output" : "D:/momo/work/browser/webview_telegram_android/argon2jni/build/intermediates/cmake/release/obj/armeabi-v7a/libargon2jni.so",
-			"toolchain" : "423535169"
+			"output" : "D:/AndroidWorkspace/CompanyPro/webview_telegram_android/argon2jni/build/intermediates/cmake/release/obj/armeabi-v7a/libargon2jni.so",
+			"toolchain" : "2734026807"
 		}
 	},
 	"toolchains" : 
 	{
-		"423535169" : 
+		"2734026807" : 
 		{
-			"cCompilerExecutable" : "D:/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
-			"cppCompilerExecutable" : "D:/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+			"cCompilerExecutable" : "C:/Users/user/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/Users/user/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
 		}
 	}
 }

@@ -1,3 +1,3 @@
-D:/momo/work/browser/webview_telegram_android/argon2jni/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/argon2jni.dir
-D:/momo/work/browser/webview_telegram_android/argon2jni/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/edit_cache.dir
-D:/momo/work/browser/webview_telegram_android/argon2jni/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/rebuild_cache.dir
+D:/AndroidWorkspace/CompanyPro/webview_telegram_android/argon2jni/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/argon2jni.dir
+D:/AndroidWorkspace/CompanyPro/webview_telegram_android/argon2jni/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/edit_cache.dir
+D:/AndroidWorkspace/CompanyPro/webview_telegram_android/argon2jni/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/rebuild_cache.dir

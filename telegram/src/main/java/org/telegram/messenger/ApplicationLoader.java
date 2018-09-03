@@ -121,8 +121,13 @@ public class ApplicationLoader extends MultiDexApplication {
 
         applicationHandler = new Handler(applicationContext.getMainLooper());
         startPushService();
-        ProxyInformation localProxyInfo = PreferenceManager.getLocalProxyInfo();
-        ConnectionsManager.native_setProxySettings(localProxyInfo.getIp(), localProxyInfo.getPort(), localProxyInfo.getUserName(),localProxyInfo.getPassword());
+        ConnectionsManager.native_setProxySettings("120.77.252.201", 1820, "", "");
+        PreferenceManager.saveProxySetting(
+                new ProxyInformation()
+                        .setIp("120.77.252.201")
+                        .setPort(1820)
+                        .setUserName("")
+                        .setPassword(""));
     }
 
     /*public static void sendRegIdToBackend(final String token) {
